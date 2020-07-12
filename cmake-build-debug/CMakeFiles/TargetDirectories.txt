@@ -1,0 +1,4 @@
+/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles/readline.dir
+/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles/mx.dir
