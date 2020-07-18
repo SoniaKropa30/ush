@@ -8,7 +8,7 @@ static bool switch_flags(char *argv[], t_app *pwd) {
                 fprintf(stderr, "pwd: too many arguments\n"); //todo check \n
                 return false;
             }
-            for (int j = 1; j < strlen(argv[i]); j++) {
+            for (unsigned int j = 1; j < strlen(argv[i]); j++) {
                 if (argv[i][j] == 'P')
                     pwd->flag_p = 1;
                 else if ((argv[i][j] != 'P' && argv[i][j] != 'L'
@@ -27,12 +27,10 @@ int mx_pwd_builtin(char *argv[], t_app *pwd) {
     if(switch_flags(argv,pwd)) {
 
     if (pwd->flag_p) {
-        write (1, pwd->pwd_p, mx_strlen(pwd->pwd_p));
-        //printf("%s\n", pwd->pwd_p);//todo how to validate?
+        printf("%s\n", pwd->pwd_p);
     }
     else if (!pwd->flag_p) {
-        write (1, pwd->pwd_l, mx_strlen(pwd->pwd_l));
-        //printf("%s\n", pwd->pwd_l);//todo how to validate?
+        printf("%s\n", pwd->pwd_l);
         }
     else
         return EXIT_FAILURE;
@@ -41,5 +39,3 @@ int mx_pwd_builtin(char *argv[], t_app *pwd) {
     return EXIT_FAILURE;
 
 }
-
-//system("leaks ush");

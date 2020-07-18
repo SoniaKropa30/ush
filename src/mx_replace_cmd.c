@@ -13,15 +13,17 @@ static char *replace_env_end(char *cmd, char *head, char *res, char *tail) {
     return cmd;
 }
 
-static char *replace_env_midl(t_st *st, char *tmp, char *res) {
-    res = mx_check_env(st->env, tmp);
-    if (res == NULL)
-        res = mx_check_env(st->set, tmp);
+static char *replace_env_midl(char *tmp, char *res) {
+    res = getenv(tmp);
     mx_del_chararr(tmp);
+    if (res != NULL) {
+        tmp = mx_strdup(res);
+        return tmp;
+    }
     return res;
 }
 
-static char *replace_env(t_st *st, int i, char *cmd, char *head) {
+static char *replace_env(int i, char *cmd, char *head) {
     char *tail = NULL;
     char *tmp = NULL;
     char *res = NULL;
@@ -38,7 +40,7 @@ static char *replace_env(t_st *st, int i, char *cmd, char *head) {
         tmp = mx_get_env(cmd, k);
         tail = mx_strdup(&cmd[k + mx_strlen(tmp)]);
     }
-    res = replace_env_midl(st, tmp, res);
+    res = replace_env_midl(tmp, res);
     cmd = replace_env_end(cmd, head, res, tail);
     return cmd;
 }
@@ -67,10 +69,10 @@ static char *replace_pwd(int i, char *cmd, char *tail) {
 }
 
 char *mx_replace_cmd(t_st *st, char *cmd) {
-    for (int i = 0; cmd[i] != '\0'; i++) {
+    for (int i = 1; cmd[i] != '\0'; i++) {
         if (cmd[i] == '$' && cmd[i + 1] != '('
-            && mx_check_slash(cmd, i) == 0) {
-            cmd = replace_env(st, i, cmd, NULL);
+            && mx_check_slash(cmd, i - 1) == 0) {
+            cmd = replace_env(i, cmd, NULL);
         }
     }
     for (int i = 0; cmd[i] != '\0'; i++) {

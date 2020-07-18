@@ -6,6 +6,8 @@ static void clean_up(t_config* term) {
     free(term->out->line);
     free(term->out->tail);
     free(term->quo);
+    free(term->str);
+    term->str = NULL;
     term->out->tail = NULL;
     term->out->line = NULL;
     term->quo = NULL;
@@ -15,41 +17,38 @@ static void clean_up(t_config* term) {
     term->q_id = 0;
     term->out->len = 0;
     term->pos = 0;
+    term->total = 0;
+    term->entry = 0;
 }
 
-static int nobuf(char *tok) {
-    if (strstr(tok, "cd ")
-        || strstr(tok, "export ")
-        || strstr(tok, "unset ")
-        || strstr(tok, "exit ")
-        || strstr(tok, "cd"))
-        return 1;
-    return 0;
+static void write_hist(int len, char *str, char *file) {
+    char *tmp = mx_strndup(str, len);
+    FILE * fp;
+
+    fp = fopen (file, "a");
+    fprintf(fp, "%s\t", tmp);
+    fclose(fp);
+    free(tmp);
 }
 
 static void reset(t_config* term, t_hist **hist) {
-    int n = 0;
-
+    write_hist(term->str_len, term->str, term->file_hist);
     term->reset = 0;
     write(1, "\n\r\x1b[0J", 6);
     mx_cooked_mode_on();
     tcsetattr(0, TCSAFLUSH, &term->origin);
-
-//    if (term->cmd != NULL)
-//        mx_loop(term->cmd, term, (t_st *)term->st);
-//    else
-        mx_loop(hist[term->entry]->line, term, (t_st *)term->st);
-    //write(1, hist[term->entry]->line, hist[term->entry]->len);
-    n = nobuf(hist[term->entry]->line);
-
-    term->entry++;
-    term->total = term->entry;
+    mx_loop(term->str, term, (t_st *)term->st);
+    if (hist[0]->line != NULL) {
+        for (int i = 0; i < term->entry; i++) {
+            free(hist[i]->line);
+            hist[i]->line = NULL;
+            hist[i]->len = 0;
+        }
+    }
     clean_up(term);
     mx_raw_mode_on();
-    if (n == 0)
-        write(1, "\r\n", 2);
-
-    term->mo_x = term->mo_x + 2;
+    mx_get_cursor(&term->y, &term->x);
+    term->mo_x = term->x;
     mx_refresh_line(term, 5);
 }
 
@@ -62,8 +61,10 @@ static void inner_loop(t_config* term, t_hist **hist) {
     term->mo_x = term->x;
     if (!term->quo[0])
         mx_refresh_screen(term, 5);
+    else if (term->quo[0] == 39 && term->quo[1] != 96)
+        mx_refresh_screen(term, 0);
     else
-        mx_refresh_screen(term, 12);
+        mx_refresh_screen(term, 1);
     if (term->reset)
         reset(term, hist);
 }

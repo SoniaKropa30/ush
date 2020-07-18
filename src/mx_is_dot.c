@@ -37,7 +37,7 @@ static int calculate_dot(char *argv, t_app *app) {
         else {
             app->dot_dir = 0;
             fprintf(stderr,
-                    "dottt ! cd: no such file or directory: %s\n", argv);
+                    "cd: no such file or directory: %s\n", argv);
             return -1;
         }
     }

@@ -23,6 +23,8 @@ static int *standart_check_flags(char *argv[], t_app *app, int *fl) {
                     fl[0] = 1;
                 else if (argv[app->cur_arg][j] == 'P')
                     fl[1] = fl[0] == 1 ? 0 : 1;
+                else if (argv[app->cur_arg][j] == 'L')
+                    continue;
                 else {
                     return fl;
                 }

@@ -92,17 +92,15 @@ int parse(t_cmd *cmd) {
 
 void runSystemCommand(t_cmd *cmd, int bg) {
     pid_t childPid;
-    // FORK !!!
     if ((childPid = fork()) < 0)
         error("fork() error");
-    else if (childPid == 0) { // I'm the child and could run a command
-        // EXECVP !!!!
+    else if (childPid == 0) {
         if (execvp(cmd->argv[0], cmd->argv) < 0) {
-            printf("%s: Command not found\n", cmd->argv[0]);
-            exit(0);
+            printf("ush: %s: Command not found\n", cmd->argv[0]);
+            exit(1);
         }
     }
-    else { // I'm the parent. Shell continues here.
+    else {
         if (bg)
             printf("Child in background [%d]\n",childPid);
         else
@@ -112,13 +110,14 @@ void runSystemCommand(t_cmd *cmd, int bg) {
 
 
 void runBuiltinCommand(t_cmd *cmd, int bg, t_app *app) {
+    bg = 1;
     switch (cmd->builtin) {
 
         case b_cd:
             mx_cd_builtin(cmd->argv, app);
             break;
         case b_which:
-            mx_which(cmd->argv);
+            mx_which(cmd->argv, app);
             break;
         case b_echo:
             mx_echo_builtin(cmd->argv);
@@ -136,6 +135,9 @@ void runBuiltinCommand(t_cmd *cmd, int bg, t_app *app) {
             mx_builtin_unset(cmd, app);
             break;
         case b_exit:
+            system("leaks -q ush");
+            while(1) {}
+            //exit(0);
             printf("TODO: exit\n");
             break;
         default:
@@ -155,6 +157,9 @@ void eval(t_app *app, t_cmd *cmd) {
     if (cmd->argv[0] == NULL) return;
 
     if (cmd->builtin == b_none) {
+        signal(SIGSEGV, SIG_DFL);
+        signal(SIGINT, SIG_DFL);
+        signal(SIGTSTP, SIG_DFL);
         runSystemCommand(cmd, bg);
     }
     else {
@@ -163,7 +168,12 @@ void eval(t_app *app, t_cmd *cmd) {
     }
 }
 
+
 int mx_streams(t_st *st, char **tokens, t_app *app) {
+//    for (int i = 0; tokens[i] != NULL; i++)
+//        printf("%d = %s\n", i, tokens[i]);
+//    printf("\n");
+
     t_cmd *cmd = malloc(sizeof(t_cmd));
 
     cmd->argc = 0;
@@ -177,3 +187,9 @@ int mx_streams(t_st *st, char **tokens, t_app *app) {
 
     return st->status;
 }
+
+
+
+
+
+

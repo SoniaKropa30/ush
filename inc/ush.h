@@ -3,7 +3,7 @@
 
 #include "./libmx/inc/libmx.h"
 
-//#include "libmx.h"
+// #include "libmx.h"
 #include <dirent.h>
 #include <string.h>
 #include <sys/stat.h>
@@ -86,7 +86,10 @@ typedef struct s_app { //struct for pwd and cd
     char * home;
     bool dd_slesh;
     bool in_pwd;
-//    char *swp;
+    bool env_path_deleted;
+    bool wch_is_biltin;
+    char *in_bin;
+
     t_environment *vars;
 
 } t_app;
@@ -98,7 +101,6 @@ typedef struct s_comand {
     enum builtin_t {b_none, b_cd, b_echo, b_pwd, b_env,
         b_export, b_unset, b_exit, b_jobs, b_bg, b_fg, b_which} builtin;
 } t_cmd;
-
 
 typedef struct s_info {
     char **commands; // simple commands
@@ -171,12 +173,15 @@ typedef struct s_config {
     int press;
     int num;
     int max_len;
+    int str_len;
+    int n;
     char **command;
     char **buf;
-    int n;
+    char *str;
+    char *cmd;
+    char *file_hist;
     struct t_app *app;
     struct t_st *st;
-    char *cmd;
 }               t_config;
 
 
@@ -186,6 +191,8 @@ typedef struct s_config {
 int main(int argc, char **argv, char **envp);
 void mx_get_commands(t_config *term);
 t_config *mx_config_init(void);
+t_hist **mx_hist_init(void);
+void mx_write_hist(int len, char *str);
 void mx_get_term_params(t_config *term);
 void mx_lp(t_config *term, t_hist **hist);
 void mx_raw_mode_on(void);
@@ -199,7 +206,7 @@ void mx_editor_processing(t_config* term, int c);
 int mx_read_key(void);
 void mx_arrows_motion(int k, t_config* term, t_hist **hist);
 void mx_die(const char *str);
-void mx_return_action(t_config *term, t_hist **hist);
+void mx_return_action(t_config *term);
 void mx_tab_action(t_config *term);
 void mx_backspace_action(t_config *term);
 void mx_clear_screen(t_config* term);
@@ -207,9 +214,10 @@ void mx_free_assumptions(t_config *term);
 void mx_set_cursor(t_config *term);
 
 
+
 ////-------------sonia
 
-int mx_which(char **argv);
+int mx_which(char *argv[], t_app *app);
 int mx_cd_builtin(char *argv[], t_app *app);
 int mx_echo_builtin(char *argv[]);
 int mx_pwd_builtin(char *argv[], t_app *pwd);
@@ -220,8 +228,8 @@ bool mx_is_link(char *file);
 int mx_arr_len(char **arr);
 int mx_is_dot(char *argv, t_app *app);
 int mx_swap_pwd (char *ch, char *argv[], t_app *app);
-char *mx_join(char *s1, char *s2);
-bool mx_is_buildin(char *str);
+char *mx_join_to_path(char *dst, char *str);
+bool mx_is_builtin(char *str);
 
 
 
@@ -266,9 +274,6 @@ void mx_liststr_delete(t_liststr **head);
 
 
 
-
-
-
 void mx_init_struct(t_st *st, char **env);
 char *mx_replace_cmd(t_st *st, char *cmd);
 void mx_malloc_err();
@@ -282,7 +287,7 @@ char *mx_check_env(char **arr, char *macros);
 char *mx_get_env(char *c, int k);
 int mx_complex_cmd(t_st *st, char **commands, int i, int passed_cmd);
 char *mx_cmd_return_alias(t_st *st, char *cmd, char *tmp, char *res);
-void mx_check_quotes(t_st *st);
+int mx_check_quotes(char *cmd);
 char *mx_tilda_prefix(int start, char *cmd);
 int mx_final_exe(t_st *st, char **args);
 int mx_count_pipes(t_st *st, char **tokens);
@@ -311,5 +316,8 @@ int mx_xcombcounter(char cmd1, char cmd2, char *first_need, int count);
 void mx_del_conveer(t_st *st);
 int mx_get_start_sub(char *cmd);
 void mx_del_chararr(char *arr);
+char *mx_dash_spaces(char *cmd, char *res, int i, int k);
+int mx_builtin_alias(t_st *st, char **tokens, char *name, char *all);
+char *mx_get_all_alias(char **tok, int cur);
 
 #endif

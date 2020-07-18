@@ -1,6 +1,6 @@
 #include "ush.h"
 
-static bool comparat(const char *name) {
+static bool comparator(const char *name) {
     bool is_dir = 0;
 
     if (strcmp(name, ".") == 0)
@@ -15,7 +15,7 @@ static int count_processor(DIR *mydir) {
     int count = 0;
 
     while((myfile = readdir(mydir)) != NULL) {
-        if (myfile->d_name[0] != '.' && comparat(myfile->d_name) == 0)
+        if (myfile->d_name[0] != '.' && comparator(myfile->d_name) == 0)
             count++;
     }
     return count;
@@ -34,7 +34,7 @@ void mx_get_commands(t_config *term) {
     if ((mydir = opendir("/bin")) != NULL) {
         while((dirptr = readdir(mydir)) != NULL) {
             if (dirptr->d_name[0] != '.'
-                && comparat(dirptr->d_name) == 0)
+                && comparator(dirptr->d_name) == 0)
                 term->command[i++] = mx_strdup(dirptr->d_name);
         }
     }

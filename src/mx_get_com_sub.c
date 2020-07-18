@@ -29,8 +29,6 @@ static char *sub_parent(t_st *st, char *cmd, int n) {
 static char *sub_run(t_st *st, char *midl, char *cmd, t_config* term) {
     pid_t pid;
 
-    st->sub1[0] = 0;
-    st->sub1[1] = 0;
     if (pipe(st->sub1) < 0)
         perror("ush: ");
     if ((pid = fork()) < 0)
@@ -40,6 +38,15 @@ static char *sub_run(t_st *st, char *midl, char *cmd, t_config* term) {
     else
         st->stat_sub = sub_child(st, midl, st->sub1, term);
     return cmd;
+}
+
+static char *maybe_final(char *cmd, char *final) {
+    char *tmp = NULL;
+
+    tmp = mx_strjoin(cmd, final);
+    free(final);
+    free(cmd);
+    return tmp;
 }
 
 char *mx_get_com_sub(t_config* term, char *begin, char *midl, char *final) {
@@ -55,12 +62,10 @@ char *mx_get_com_sub(t_config* term, char *begin, char *midl, char *final) {
             free(tmp);
             free(final);
         }
+        else
+            cmd = tmp;
     }
-    else if (final != NULL) {
-        tmp = mx_strjoin(cmd, final);
-        free(final);
-        free(cmd);
-        cmd = tmp;
-    }
+    else if (final != NULL)
+        cmd = maybe_final(cmd, final);
     return cmd;
 }

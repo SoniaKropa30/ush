@@ -8,7 +8,8 @@ char *mx_check_env(char **arr, char *macros) {
     for (int i = 0; arr[i] != NULL; i++) {
         if ((strncmp(arr[i], macros, n) == 0)
             && arr[i][n] == '=') {
-            if (strncmp(&arr[i][n + 1], "'", 1) == 0) {
+            if (strncmp(&arr[i][n + 1], "'", 1) == 0
+                || arr[i][n + 1] == '"') {
                 j = mx_strlen(&arr[i][n + 2]) - 1;
                 res = mx_strndup(&arr[i][n + 2], j);
             }

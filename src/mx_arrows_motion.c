@@ -49,7 +49,32 @@ static void down_motion(t_config* term, t_hist **hist) {
     }
 }
 
+static void create_history(t_config* term, t_hist **hist) {
+    if (hist[0]->line == NULL) {
+        char tmp[1024];
+        FILE *fp;
+
+        if ((fp = fopen (term->file_hist, "r"))) {
+            fgets(tmp, 1024, (FILE*)fp);
+            fclose(fp);
+        }
+        if (strlen(tmp)) {
+            char *token = strtok(tmp, "\t");
+
+            for (int i = 0; token != NULL; i++, term->entry++) {
+                hist[i]->line = mx_strdup(token);
+                hist[i]->len = strlen(hist[i]->line);
+                token = strtok(NULL, "\t");
+            }
+            free(token);
+            term->total = term->entry;
+        }
+    }
+}
+
 void mx_arrows_motion(int k, t_config* term, t_hist **hist) {
+    if (k == MX_ARROW_UP || k == MX_ARROW_DOWN)
+        create_history(term, hist);
     switch (k) {
         case MX_ARROW_LEFT:
             if (term->mo_y > 1)
@@ -59,11 +84,13 @@ void mx_arrows_motion(int k, t_config* term, t_hist **hist) {
             if (term->mo_y < term->out->len + 1)
                 term->mo_y++;
             break;
-        case MX_ARROW_UP:
-            up_motion(term, hist);
-        break;
-        case MX_ARROW_DOWN:
-            down_motion(term, hist);
-        break;
+        default:
+            if (hist[0]->line != NULL) {
+                if (k == MX_ARROW_UP)
+                    up_motion(term, hist);
+                else if (k == MX_ARROW_DOWN)
+                    down_motion(term, hist);
+            }
+            break;
     }
 }

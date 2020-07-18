@@ -1,11 +1,11 @@
 #include "ush.h"
 
 static void switch_flags(char *argv[], t_echo *echo) {
-    if(argv[1] == NULL || argv[1][0] != '-' )
+    if (argv[1] == NULL || argv[1][0] != '-')
         echo->start_of_file = 1;
     else {
         for (int i = 1; argv[i] != NULL && argv[i][0] == '-'; i++) {
-            for (int j = 1; j < strlen(argv[i]); j++) {
+            for (unsigned int j = 1; j < strlen(argv[i]); j++) {
                 if (argv[i][j] == 'n')
                     echo->flag_n = 1;
                 else if (argv[i][j] == 'e')
@@ -22,6 +22,8 @@ static void switch_flags(char *argv[], t_echo *echo) {
     }
 }
 
+
+
 int mx_echo_builtin(char *argv[]) {
     t_echo *echo  = malloc(sizeof(t_echo));
     switch_flags(argv, echo);
@@ -29,13 +31,16 @@ int mx_echo_builtin(char *argv[]) {
     //print echo
     if (argv[echo->start_of_file] != NULL){
             for (int i = echo->start_of_file; argv[i] != NULL; i++) {
-                if (argv[i + 1] != NULL)
-                    printf("%s ", argv[i]);
+                if (argv[i + 1] != NULL) {
+                    write (1, &argv[i], mx_strlen(argv[i]));
+                    write (1, "\n", 1);
+                }
+                    //printf("%s ", argv[i]);
                 else {
                     if (!echo->flag_n)
                         printf("%s\n", argv[i]); // + \n from terminal
                     else
-                        printf("%s%c\n", argv[i], '%'); //% надо вставлять?
+                        printf("%s\n", argv[i]); //% надо вставлять?
                 }
             }
     }
@@ -45,6 +50,5 @@ int mx_echo_builtin(char *argv[]) {
 
     return EXIT_SUCCESS;
 }
-
 //system("leaks ush");
 //доделать вывод со слэшами и ~ (username);

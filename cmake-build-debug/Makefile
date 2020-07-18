@@ -48,10 +48,10 @@ RM = /Users/admin/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/admin/Desktop/shell
+CMAKE_SOURCE_DIR = /Users/admin/Desktop/ush
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/admin/Desktop/shell/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/admin/Desktop/ush/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles /Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles /Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -2026,32 +2026,32 @@ src/builtin_which.c.s:
 	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/builtin_which.c.s
 .PHONY : src/builtin_which.c.s
 
-src/buuiltin_which.o: src/buuiltin_which.c.o
+src/buuuiltin_which.o: src/buuuiltin_which.c.o
 
-.PHONY : src/buuiltin_which.o
+.PHONY : src/buuuiltin_which.o
 
 # target to build an object file
-src/buuiltin_which.c.o:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/buuiltin_which.c.o
-.PHONY : src/buuiltin_which.c.o
+src/buuuiltin_which.c.o:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/buuuiltin_which.c.o
+.PHONY : src/buuuiltin_which.c.o
 
-src/buuiltin_which.i: src/buuiltin_which.c.i
+src/buuuiltin_which.i: src/buuuiltin_which.c.i
 
-.PHONY : src/buuiltin_which.i
+.PHONY : src/buuuiltin_which.i
 
 # target to preprocess a source file
-src/buuiltin_which.c.i:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/buuiltin_which.c.i
-.PHONY : src/buuiltin_which.c.i
+src/buuuiltin_which.c.i:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/buuuiltin_which.c.i
+.PHONY : src/buuuiltin_which.c.i
 
-src/buuiltin_which.s: src/buuiltin_which.c.s
+src/buuuiltin_which.s: src/buuuiltin_which.c.s
 
-.PHONY : src/buuiltin_which.s
+.PHONY : src/buuuiltin_which.s
 
 # target to generate assembly for a file
-src/buuiltin_which.c.s:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/buuiltin_which.c.s
-.PHONY : src/buuiltin_which.c.s
+src/buuuiltin_which.c.s:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/buuuiltin_which.c.s
+.PHONY : src/buuuiltin_which.c.s
 
 src/main.o: src/main.c.o
 
@@ -2160,6 +2160,33 @@ src/mx_backspace_action.s: src/mx_backspace_action.c.s
 src/mx_backspace_action.c.s:
 	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_backspace_action.c.s
 .PHONY : src/mx_backspace_action.c.s
+
+src/mx_builtin_alias.o: src/mx_builtin_alias.c.o
+
+.PHONY : src/mx_builtin_alias.o
+
+# target to build an object file
+src/mx_builtin_alias.c.o:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_builtin_alias.c.o
+.PHONY : src/mx_builtin_alias.c.o
+
+src/mx_builtin_alias.i: src/mx_builtin_alias.c.i
+
+.PHONY : src/mx_builtin_alias.i
+
+# target to preprocess a source file
+src/mx_builtin_alias.c.i:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_builtin_alias.c.i
+.PHONY : src/mx_builtin_alias.c.i
+
+src/mx_builtin_alias.s: src/mx_builtin_alias.c.s
+
+.PHONY : src/mx_builtin_alias.s
+
+# target to generate assembly for a file
+src/mx_builtin_alias.c.s:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_builtin_alias.c.s
+.PHONY : src/mx_builtin_alias.c.s
 
 src/mx_cd_l.o: src/mx_cd_l.c.o
 
@@ -2620,6 +2647,33 @@ src/mx_counter.c.s:
 	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_counter.c.s
 .PHONY : src/mx_counter.c.s
 
+src/mx_dash_spaces.o: src/mx_dash_spaces.c.o
+
+.PHONY : src/mx_dash_spaces.o
+
+# target to build an object file
+src/mx_dash_spaces.c.o:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_dash_spaces.c.o
+.PHONY : src/mx_dash_spaces.c.o
+
+src/mx_dash_spaces.i: src/mx_dash_spaces.c.i
+
+.PHONY : src/mx_dash_spaces.i
+
+# target to preprocess a source file
+src/mx_dash_spaces.c.i:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_dash_spaces.c.i
+.PHONY : src/mx_dash_spaces.c.i
+
+src/mx_dash_spaces.s: src/mx_dash_spaces.c.s
+
+.PHONY : src/mx_dash_spaces.s
+
+# target to generate assembly for a file
+src/mx_dash_spaces.c.s:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_dash_spaces.c.s
+.PHONY : src/mx_dash_spaces.c.s
+
 src/mx_del_chararr.o: src/mx_del_chararr.c.o
 
 .PHONY : src/mx_del_chararr.o
@@ -2727,87 +2781,6 @@ src/mx_editor_processing.s: src/mx_editor_processing.c.s
 src/mx_editor_processing.c.s:
 	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_editor_processing.c.s
 .PHONY : src/mx_editor_processing.c.s
-
-src/mx_env_copy.o: src/mx_env_copy.c.o
-
-.PHONY : src/mx_env_copy.o
-
-# target to build an object file
-src/mx_env_copy.c.o:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_env_copy.c.o
-.PHONY : src/mx_env_copy.c.o
-
-src/mx_env_copy.i: src/mx_env_copy.c.i
-
-.PHONY : src/mx_env_copy.i
-
-# target to preprocess a source file
-src/mx_env_copy.c.i:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_env_copy.c.i
-.PHONY : src/mx_env_copy.c.i
-
-src/mx_env_copy.s: src/mx_env_copy.c.s
-
-.PHONY : src/mx_env_copy.s
-
-# target to generate assembly for a file
-src/mx_env_copy.c.s:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_env_copy.c.s
-.PHONY : src/mx_env_copy.c.s
-
-src/mx_env_get_value.o: src/mx_env_get_value.c.o
-
-.PHONY : src/mx_env_get_value.o
-
-# target to build an object file
-src/mx_env_get_value.c.o:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_env_get_value.c.o
-.PHONY : src/mx_env_get_value.c.o
-
-src/mx_env_get_value.i: src/mx_env_get_value.c.i
-
-.PHONY : src/mx_env_get_value.i
-
-# target to preprocess a source file
-src/mx_env_get_value.c.i:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_env_get_value.c.i
-.PHONY : src/mx_env_get_value.c.i
-
-src/mx_env_get_value.s: src/mx_env_get_value.c.s
-
-.PHONY : src/mx_env_get_value.s
-
-# target to generate assembly for a file
-src/mx_env_get_value.c.s:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_env_get_value.c.s
-.PHONY : src/mx_env_get_value.c.s
-
-src/mx_env_new_delete.o: src/mx_env_new_delete.c.o
-
-.PHONY : src/mx_env_new_delete.o
-
-# target to build an object file
-src/mx_env_new_delete.c.o:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_env_new_delete.c.o
-.PHONY : src/mx_env_new_delete.c.o
-
-src/mx_env_new_delete.i: src/mx_env_new_delete.c.i
-
-.PHONY : src/mx_env_new_delete.i
-
-# target to preprocess a source file
-src/mx_env_new_delete.c.i:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_env_new_delete.c.i
-.PHONY : src/mx_env_new_delete.c.i
-
-src/mx_env_new_delete.s: src/mx_env_new_delete.c.s
-
-.PHONY : src/mx_env_new_delete.s
-
-# target to generate assembly for a file
-src/mx_env_new_delete.c.s:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_env_new_delete.c.s
-.PHONY : src/mx_env_new_delete.c.s
 
 src/mx_env_set_var.o: src/mx_env_set_var.c.o
 
@@ -3079,6 +3052,33 @@ src/mx_free_assumptions.c.s:
 	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_free_assumptions.c.s
 .PHONY : src/mx_free_assumptions.c.s
 
+src/mx_get_all_alias.o: src/mx_get_all_alias.c.o
+
+.PHONY : src/mx_get_all_alias.o
+
+# target to build an object file
+src/mx_get_all_alias.c.o:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_get_all_alias.c.o
+.PHONY : src/mx_get_all_alias.c.o
+
+src/mx_get_all_alias.i: src/mx_get_all_alias.c.i
+
+.PHONY : src/mx_get_all_alias.i
+
+# target to preprocess a source file
+src/mx_get_all_alias.c.i:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_get_all_alias.c.i
+.PHONY : src/mx_get_all_alias.c.i
+
+src/mx_get_all_alias.s: src/mx_get_all_alias.c.s
+
+.PHONY : src/mx_get_all_alias.s
+
+# target to generate assembly for a file
+src/mx_get_all_alias.c.s:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_get_all_alias.c.s
+.PHONY : src/mx_get_all_alias.c.s
+
 src/mx_get_argv.o: src/mx_get_argv.c.o
 
 .PHONY : src/mx_get_argv.o
@@ -3322,6 +3322,33 @@ src/mx_get_var_part.c.s:
 	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_get_var_part.c.s
 .PHONY : src/mx_get_var_part.c.s
 
+src/mx_hist_init.o: src/mx_hist_init.c.o
+
+.PHONY : src/mx_hist_init.o
+
+# target to build an object file
+src/mx_hist_init.c.o:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_hist_init.c.o
+.PHONY : src/mx_hist_init.c.o
+
+src/mx_hist_init.i: src/mx_hist_init.c.i
+
+.PHONY : src/mx_hist_init.i
+
+# target to preprocess a source file
+src/mx_hist_init.c.i:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_hist_init.c.i
+.PHONY : src/mx_hist_init.c.i
+
+src/mx_hist_init.s: src/mx_hist_init.c.s
+
+.PHONY : src/mx_hist_init.s
+
+# target to generate assembly for a file
+src/mx_hist_init.c.s:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_hist_init.c.s
+.PHONY : src/mx_hist_init.c.s
+
 src/mx_init_struct.o: src/mx_init_struct.c.o
 
 .PHONY : src/mx_init_struct.o
@@ -3349,32 +3376,32 @@ src/mx_init_struct.c.s:
 	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_init_struct.c.s
 .PHONY : src/mx_init_struct.c.s
 
-src/mx_is_buildin.o: src/mx_is_buildin.c.o
+src/mx_is_builtin.o: src/mx_is_builtin.c.o
 
-.PHONY : src/mx_is_buildin.o
+.PHONY : src/mx_is_builtin.o
 
 # target to build an object file
-src/mx_is_buildin.c.o:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_is_buildin.c.o
-.PHONY : src/mx_is_buildin.c.o
+src/mx_is_builtin.c.o:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_is_builtin.c.o
+.PHONY : src/mx_is_builtin.c.o
 
-src/mx_is_buildin.i: src/mx_is_buildin.c.i
+src/mx_is_builtin.i: src/mx_is_builtin.c.i
 
-.PHONY : src/mx_is_buildin.i
+.PHONY : src/mx_is_builtin.i
 
 # target to preprocess a source file
-src/mx_is_buildin.c.i:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_is_buildin.c.i
-.PHONY : src/mx_is_buildin.c.i
+src/mx_is_builtin.c.i:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_is_builtin.c.i
+.PHONY : src/mx_is_builtin.c.i
 
-src/mx_is_buildin.s: src/mx_is_buildin.c.s
+src/mx_is_builtin.s: src/mx_is_builtin.c.s
 
-.PHONY : src/mx_is_buildin.s
+.PHONY : src/mx_is_builtin.s
 
 # target to generate assembly for a file
-src/mx_is_buildin.c.s:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_is_buildin.c.s
-.PHONY : src/mx_is_buildin.c.s
+src/mx_is_builtin.c.s:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_is_builtin.c.s
+.PHONY : src/mx_is_builtin.c.s
 
 src/mx_is_dot.o: src/mx_is_dot.c.o
 
@@ -3430,59 +3457,32 @@ src/mx_is_link.c.s:
 	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_is_link.c.s
 .PHONY : src/mx_is_link.c.s
 
-src/mx_join.o: src/mx_join.c.o
+src/mx_join_to_path.o: src/mx_join_to_path.c.o
 
-.PHONY : src/mx_join.o
-
-# target to build an object file
-src/mx_join.c.o:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_join.c.o
-.PHONY : src/mx_join.c.o
-
-src/mx_join.i: src/mx_join.c.i
-
-.PHONY : src/mx_join.i
-
-# target to preprocess a source file
-src/mx_join.c.i:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_join.c.i
-.PHONY : src/mx_join.c.i
-
-src/mx_join.s: src/mx_join.c.s
-
-.PHONY : src/mx_join.s
-
-# target to generate assembly for a file
-src/mx_join.c.s:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_join.c.s
-.PHONY : src/mx_join.c.s
-
-src/mx_liststr_convert_argv.o: src/mx_liststr_convert_argv.c.o
-
-.PHONY : src/mx_liststr_convert_argv.o
+.PHONY : src/mx_join_to_path.o
 
 # target to build an object file
-src/mx_liststr_convert_argv.c.o:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_liststr_convert_argv.c.o
-.PHONY : src/mx_liststr_convert_argv.c.o
+src/mx_join_to_path.c.o:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_join_to_path.c.o
+.PHONY : src/mx_join_to_path.c.o
 
-src/mx_liststr_convert_argv.i: src/mx_liststr_convert_argv.c.i
+src/mx_join_to_path.i: src/mx_join_to_path.c.i
 
-.PHONY : src/mx_liststr_convert_argv.i
+.PHONY : src/mx_join_to_path.i
 
 # target to preprocess a source file
-src/mx_liststr_convert_argv.c.i:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_liststr_convert_argv.c.i
-.PHONY : src/mx_liststr_convert_argv.c.i
+src/mx_join_to_path.c.i:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_join_to_path.c.i
+.PHONY : src/mx_join_to_path.c.i
 
-src/mx_liststr_convert_argv.s: src/mx_liststr_convert_argv.c.s
+src/mx_join_to_path.s: src/mx_join_to_path.c.s
 
-.PHONY : src/mx_liststr_convert_argv.s
+.PHONY : src/mx_join_to_path.s
 
 # target to generate assembly for a file
-src/mx_liststr_convert_argv.c.s:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_liststr_convert_argv.c.s
-.PHONY : src/mx_liststr_convert_argv.c.s
+src/mx_join_to_path.c.s:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_join_to_path.c.s
+.PHONY : src/mx_join_to_path.c.s
 
 src/mx_liststr_delete.o: src/mx_liststr_delete.c.o
 
@@ -3727,33 +3727,6 @@ src/mx_malloc_err.c.s:
 	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_malloc_err.c.s
 .PHONY : src/mx_malloc_err.c.s
 
-src/mx_match_search.o: src/mx_match_search.c.o
-
-.PHONY : src/mx_match_search.o
-
-# target to build an object file
-src/mx_match_search.c.o:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_match_search.c.o
-.PHONY : src/mx_match_search.c.o
-
-src/mx_match_search.i: src/mx_match_search.c.i
-
-.PHONY : src/mx_match_search.i
-
-# target to preprocess a source file
-src/mx_match_search.c.i:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_match_search.c.i
-.PHONY : src/mx_match_search.c.i
-
-src/mx_match_search.s: src/mx_match_search.c.s
-
-.PHONY : src/mx_match_search.s
-
-# target to generate assembly for a file
-src/mx_match_search.c.s:
-	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_match_search.c.s
-.PHONY : src/mx_match_search.c.s
-
 src/mx_ncounter.o: src/mx_ncounter.c.o
 
 .PHONY : src/mx_ncounter.o
@@ -3996,6 +3969,33 @@ src/mx_refresh_screen.s: src/mx_refresh_screen.c.s
 src/mx_refresh_screen.c.s:
 	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_refresh_screen.c.s
 .PHONY : src/mx_refresh_screen.c.s
+
+src/mx_reg.o: src/mx_reg.c.o
+
+.PHONY : src/mx_reg.o
+
+# target to build an object file
+src/mx_reg.c.o:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_reg.c.o
+.PHONY : src/mx_reg.c.o
+
+src/mx_reg.i: src/mx_reg.c.i
+
+.PHONY : src/mx_reg.i
+
+# target to preprocess a source file
+src/mx_reg.c.i:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_reg.c.i
+.PHONY : src/mx_reg.c.i
+
+src/mx_reg.s: src/mx_reg.c.s
+
+.PHONY : src/mx_reg.s
+
+# target to generate assembly for a file
+src/mx_reg.c.s:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_reg.c.s
+.PHONY : src/mx_reg.c.s
 
 src/mx_replace_cmd.o: src/mx_replace_cmd.c.o
 
@@ -4429,6 +4429,33 @@ src/mx_tilda_prefix.c.s:
 	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_tilda_prefix.c.s
 .PHONY : src/mx_tilda_prefix.c.s
 
+src/mx_write_hist.o: src/mx_write_hist.c.o
+
+.PHONY : src/mx_write_hist.o
+
+# target to build an object file
+src/mx_write_hist.c.o:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_write_hist.c.o
+.PHONY : src/mx_write_hist.c.o
+
+src/mx_write_hist.i: src/mx_write_hist.c.i
+
+.PHONY : src/mx_write_hist.i
+
+# target to preprocess a source file
+src/mx_write_hist.c.i:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_write_hist.c.i
+.PHONY : src/mx_write_hist.c.i
+
+src/mx_write_hist.s: src/mx_write_hist.c.s
+
+.PHONY : src/mx_write_hist.s
+
+# target to generate assembly for a file
+src/mx_write_hist.c.s:
+	$(MAKE) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/src/mx_write_hist.c.s
+.PHONY : src/mx_write_hist.c.s
+
 src/mx_xcombcounter.o: src/mx_xcombcounter.c.o
 
 .PHONY : src/mx_xcombcounter.o
@@ -4703,9 +4730,9 @@ help:
 	@echo "... src/builtin_which.o"
 	@echo "... src/builtin_which.i"
 	@echo "... src/builtin_which.s"
-	@echo "... src/buuiltin_which.o"
-	@echo "... src/buuiltin_which.i"
-	@echo "... src/buuiltin_which.s"
+	@echo "... src/buuuiltin_which.o"
+	@echo "... src/buuuiltin_which.i"
+	@echo "... src/buuuiltin_which.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -4718,6 +4745,9 @@ help:
 	@echo "... src/mx_backspace_action.o"
 	@echo "... src/mx_backspace_action.i"
 	@echo "... src/mx_backspace_action.s"
+	@echo "... src/mx_builtin_alias.o"
+	@echo "... src/mx_builtin_alias.i"
+	@echo "... src/mx_builtin_alias.s"
 	@echo "... src/mx_cd_l.o"
 	@echo "... src/mx_cd_l.i"
 	@echo "... src/mx_cd_l.s"
@@ -4769,6 +4799,9 @@ help:
 	@echo "... src/mx_counter.o"
 	@echo "... src/mx_counter.i"
 	@echo "... src/mx_counter.s"
+	@echo "... src/mx_dash_spaces.o"
+	@echo "... src/mx_dash_spaces.i"
+	@echo "... src/mx_dash_spaces.s"
 	@echo "... src/mx_del_chararr.o"
 	@echo "... src/mx_del_chararr.i"
 	@echo "... src/mx_del_chararr.s"
@@ -4781,15 +4814,6 @@ help:
 	@echo "... src/mx_editor_processing.o"
 	@echo "... src/mx_editor_processing.i"
 	@echo "... src/mx_editor_processing.s"
-	@echo "... src/mx_env_copy.o"
-	@echo "... src/mx_env_copy.i"
-	@echo "... src/mx_env_copy.s"
-	@echo "... src/mx_env_get_value.o"
-	@echo "... src/mx_env_get_value.i"
-	@echo "... src/mx_env_get_value.s"
-	@echo "... src/mx_env_new_delete.o"
-	@echo "... src/mx_env_new_delete.i"
-	@echo "... src/mx_env_new_delete.s"
 	@echo "... src/mx_env_set_var.o"
 	@echo "... src/mx_env_set_var.i"
 	@echo "... src/mx_env_set_var.s"
@@ -4820,6 +4844,9 @@ help:
 	@echo "... src/mx_free_assumptions.o"
 	@echo "... src/mx_free_assumptions.i"
 	@echo "... src/mx_free_assumptions.s"
+	@echo "... src/mx_get_all_alias.o"
+	@echo "... src/mx_get_all_alias.i"
+	@echo "... src/mx_get_all_alias.s"
 	@echo "... src/mx_get_argv.o"
 	@echo "... src/mx_get_argv.i"
 	@echo "... src/mx_get_argv.s"
@@ -4847,24 +4874,24 @@ help:
 	@echo "... src/mx_get_var_part.o"
 	@echo "... src/mx_get_var_part.i"
 	@echo "... src/mx_get_var_part.s"
+	@echo "... src/mx_hist_init.o"
+	@echo "... src/mx_hist_init.i"
+	@echo "... src/mx_hist_init.s"
 	@echo "... src/mx_init_struct.o"
 	@echo "... src/mx_init_struct.i"
 	@echo "... src/mx_init_struct.s"
-	@echo "... src/mx_is_buildin.o"
-	@echo "... src/mx_is_buildin.i"
-	@echo "... src/mx_is_buildin.s"
+	@echo "... src/mx_is_builtin.o"
+	@echo "... src/mx_is_builtin.i"
+	@echo "... src/mx_is_builtin.s"
 	@echo "... src/mx_is_dot.o"
 	@echo "... src/mx_is_dot.i"
 	@echo "... src/mx_is_dot.s"
 	@echo "... src/mx_is_link.o"
 	@echo "... src/mx_is_link.i"
 	@echo "... src/mx_is_link.s"
-	@echo "... src/mx_join.o"
-	@echo "... src/mx_join.i"
-	@echo "... src/mx_join.s"
-	@echo "... src/mx_liststr_convert_argv.o"
-	@echo "... src/mx_liststr_convert_argv.i"
-	@echo "... src/mx_liststr_convert_argv.s"
+	@echo "... src/mx_join_to_path.o"
+	@echo "... src/mx_join_to_path.i"
+	@echo "... src/mx_join_to_path.s"
 	@echo "... src/mx_liststr_delete.o"
 	@echo "... src/mx_liststr_delete.i"
 	@echo "... src/mx_liststr_delete.s"
@@ -4892,9 +4919,6 @@ help:
 	@echo "... src/mx_malloc_err.o"
 	@echo "... src/mx_malloc_err.i"
 	@echo "... src/mx_malloc_err.s"
-	@echo "... src/mx_match_search.o"
-	@echo "... src/mx_match_search.i"
-	@echo "... src/mx_match_search.s"
 	@echo "... src/mx_ncounter.o"
 	@echo "... src/mx_ncounter.i"
 	@echo "... src/mx_ncounter.s"
@@ -4922,6 +4946,9 @@ help:
 	@echo "... src/mx_refresh_screen.o"
 	@echo "... src/mx_refresh_screen.i"
 	@echo "... src/mx_refresh_screen.s"
+	@echo "... src/mx_reg.o"
+	@echo "... src/mx_reg.i"
+	@echo "... src/mx_reg.s"
 	@echo "... src/mx_replace_cmd.o"
 	@echo "... src/mx_replace_cmd.i"
 	@echo "... src/mx_replace_cmd.s"
@@ -4970,6 +4997,9 @@ help:
 	@echo "... src/mx_tilda_prefix.o"
 	@echo "... src/mx_tilda_prefix.i"
 	@echo "... src/mx_tilda_prefix.s"
+	@echo "... src/mx_write_hist.o"
+	@echo "... src/mx_write_hist.i"
+	@echo "... src/mx_write_hist.s"
 	@echo "... src/mx_xcombcounter.o"
 	@echo "... src/mx_xcombcounter.i"
 	@echo "... src/mx_xcombcounter.s"

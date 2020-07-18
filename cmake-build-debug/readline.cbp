@@ -8,25 +8,25 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/admin/Desktop/shell/cmake-build-debug"/>
+				<Option working_dir="/Users/admin/Desktop/ush/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="readline">
-				<Option output="/Users/admin/Desktop/shell/cmake-build-debug/readline" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/admin/Desktop/shell/cmake-build-debug"/>
+				<Option output="/Users/admin/Desktop/ush/cmake-build-debug/readline" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/admin/Desktop/ush/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/admin/Desktop/shell/./inc"/>
-					<Add directory="/Users/admin/Desktop/shell/libmx/inc"/>
-					<Add directory="/Users/admin/Desktop/shell/libmx"/>
+					<Add directory="/Users/admin/Desktop/ush/./inc"/>
+					<Add directory="/Users/admin/Desktop/ush/libmx/inc"/>
+					<Add directory="/Users/admin/Desktop/ush/libmx"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -34,22 +34,22 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 readline"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 readline"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="readline/fast">
-				<Option output="/Users/admin/Desktop/shell/cmake-build-debug/readline" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/admin/Desktop/shell/cmake-build-debug"/>
+				<Option output="/Users/admin/Desktop/ush/cmake-build-debug/readline" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/admin/Desktop/ush/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/admin/Desktop/shell/./inc"/>
-					<Add directory="/Users/admin/Desktop/shell/libmx/inc"/>
-					<Add directory="/Users/admin/Desktop/shell/libmx"/>
+					<Add directory="/Users/admin/Desktop/ush/./inc"/>
+					<Add directory="/Users/admin/Desktop/ush/libmx/inc"/>
+					<Add directory="/Users/admin/Desktop/ush/libmx"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -57,42 +57,42 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 readline/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 readline/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/admin/Desktop/shell/cmake-build-debug"/>
+				<Option working_dir="/Users/admin/Desktop/ush/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/admin/Desktop/shell/cmake-build-debug"/>
+				<Option working_dir="/Users/admin/Desktop/ush/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="mx">
-				<Option output="/Users/admin/Desktop/shell/cmake-build-debug/libmx.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/admin/Desktop/shell/cmake-build-debug"/>
+				<Option output="/Users/admin/Desktop/ush/cmake-build-debug/libmx.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/admin/Desktop/ush/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/admin/Desktop/shell/./inc"/>
-					<Add directory="/Users/admin/Desktop/shell/libmx/inc"/>
-					<Add directory="/Users/admin/Desktop/shell/libmx"/>
+					<Add directory="/Users/admin/Desktop/ush/./inc"/>
+					<Add directory="/Users/admin/Desktop/ush/libmx/inc"/>
+					<Add directory="/Users/admin/Desktop/ush/libmx"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -100,22 +100,22 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 mx"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 mx"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="mx/fast">
-				<Option output="/Users/admin/Desktop/shell/cmake-build-debug/libmx.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/admin/Desktop/shell/cmake-build-debug"/>
+				<Option output="/Users/admin/Desktop/ush/cmake-build-debug/libmx.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/admin/Desktop/ush/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/admin/Desktop/shell/./inc"/>
-					<Add directory="/Users/admin/Desktop/shell/libmx/inc"/>
-					<Add directory="/Users/admin/Desktop/shell/libmx"/>
+					<Add directory="/Users/admin/Desktop/ush/./inc"/>
+					<Add directory="/Users/admin/Desktop/ush/libmx/inc"/>
+					<Add directory="/Users/admin/Desktop/ush/libmx"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -123,497 +123,500 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 mx/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/shell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 mx/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/admin/Desktop/ush/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_binary_search.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_binary_search.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_bool_repls.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_bool_repls.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_bubble_sort.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_bubble_sort.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_count_chars.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_count_chars.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_count_substr.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_count_substr.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_count_words.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_count_words.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_create_node.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_create_node.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_del_extra_spaces.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_del_extra_spaces.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_del_strarr.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_del_strarr.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_file_to_str.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_file_to_str.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_findlen.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_findlen.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_foreach.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_foreach.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_get_char_index.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_get_char_index.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_get_substr_index.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_get_substr_index.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_hex_to_nbr.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_hex_to_nbr.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_is_space.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_is_space.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_isspace.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_isspace.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_itoa.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_itoa.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_len_to_delim.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_len_to_delim.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_list_size.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_list_size.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_memccpy.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_memccpy.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_memchr.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_memchr.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_memcmp.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_memcmp.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_memcpy.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_memcpy.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_memmem.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_memmem.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_memmove.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_memmove.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_memrchr.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_memrchr.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_memset.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_memset.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_nbr_to_hex.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_nbr_to_hex.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_pop_back.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_pop_back.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_pop_front.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_pop_front.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_pow.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_pow.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_print_strarr.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_print_strarr.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_print_unicode.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_print_unicode.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_printchar.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_printchar.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_printint.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_printint.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_printstr.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_printstr.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_push_back.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_push_back.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_push_front.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_push_front.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_quicksort.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_quicksort.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_read_line.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_read_line.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_realloc.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_realloc.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_replace_substr.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_replace_substr.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_sort_list.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_sort_list.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_sqrt.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_sqrt.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_str_reverse.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_str_reverse.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_strcat.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_strcat.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_strcmp.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_strcmp.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_strcpy.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_strcpy.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_strdel.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_strdel.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_strdup.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_strdup.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_strjoin.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_strjoin.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_strlen.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_strlen.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_strncmp.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_strncmp.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_strncpy.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_strncpy.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_strndup.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_strndup.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_strnew.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_strnew.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_strsplit.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_strsplit.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_strstr.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_strstr.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_strtrim.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_strtrim.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_swap_char.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_swap_char.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/libmx/src/mx_swap_list.c">
+		<Unit filename="/Users/admin/Desktop/ush/libmx/src/mx_swap_list.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/builtin_cd.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/builtin_cd.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/builtin_echo.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/builtin_echo.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/builtin_env.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/builtin_env.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/builtin_export.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/builtin_export.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/builtin_init_stract.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/builtin_init_stract.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/builtin_pwd.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/builtin_pwd.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/builtin_unset.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/builtin_unset.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/builtin_which.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/builtin_which.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/buuiltin_which.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/buuuiltin_which.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/main.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/main.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_arr_length.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_arr_length.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_arrows_motion.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_arrows_motion.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_backspace_action.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_backspace_action.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_cd_l.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_builtin_alias.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_cd_p.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_cd_l.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_check_env.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_cd_p.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_check_quotes.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_check_env.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_check_slash.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_check_quotes.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_clear_screen.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_check_slash.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_cmd_return_alias.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_clear_screen.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_combcounter.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_cmd_return_alias.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_command_pars.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_combcounter.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_command_sub.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_command_pars.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_complex_cmd.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_command_sub.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_config_init.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_complex_cmd.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_conveer.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_config_init.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_cooked_mode_on.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_conveer.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_count_pipes.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_cooked_mode_on.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_count_streams.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_count_pipes.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_counter.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_count_streams.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_del_chararr.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_counter.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_del_conveer.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_dash_spaces.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_die.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_del_chararr.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_editor_processing.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_del_conveer.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_env_copy.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_die.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_env_get_value.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_editor_processing.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_env_new_delete.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_env_set_var.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_env_set_var.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_environ_copy.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_environ_copy.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_environ_handler_env.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_environ_handler_env.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_exec_env.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_exec_env.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_export_var_to_lists.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_export_var_to_lists.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_file_input.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_file_input.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_file_output.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_file_output.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_final_exe.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_final_exe.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_flags_handler_env.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_flags_handler_env.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_free_assumptions.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_free_assumptions.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_get_all_alias.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_get_argv.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_get_argv.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_get_cmd_tok.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_get_cmd_tok.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_get_com_sub.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_get_com_sub.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_get_commands.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_get_commands.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_get_cursor.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_get_cursor.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_get_env.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_get_env.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_get_start_sub.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_get_start_sub.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_get_term_params.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_get_term_params.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_get_var_part.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_get_var_part.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_init_struct.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_hist_init.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_is_buildin.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_init_struct.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_is_dot.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_is_builtin.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_is_link.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_is_dot.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_join.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_is_link.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_liststr_convert_argv.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_join_to_path.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_liststr_delete.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_liststr_delete.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_liststr_init.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_liststr_init.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_liststr_length.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_liststr_length.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_liststr_pop_front.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_liststr_pop_front.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_liststr_push_back.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_liststr_push_back.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_liststr_push_front.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_liststr_push_front.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_loop.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_loop.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_lp.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_lp.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_malloc_err.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_malloc_err.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_match_search.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_ncounter.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_ncounter.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_piped_child.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_piped_child.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_printerr.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_printerr.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_process_key.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_process_key.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_qoutes_handling.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_qoutes_handling.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_raw_mode_on.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_raw_mode_on.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_read_key.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_read_key.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_refresh_line.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_refresh_line.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_refresh_screen.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_refresh_screen.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_reg.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_replace_cmd.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_replace_cmd.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_return_action.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_return_action.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_set_cursor.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_set_cursor.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_simple_commands.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_simple_commands.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_sort_arr.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_sort_arr.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_sort_intarr.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_sort_intarr.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_split_backup.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_split_backup.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_split_line.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_split_line.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_streams.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_streams.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_streams_endout.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_streams_endout.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_streams_get.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_streams_get.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_streams_in.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_streams_in.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_streams_out.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_streams_out.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_swap_pwd.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_swap_pwd.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_tab_action.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_tab_action.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_tilda_prefix.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_tilda_prefix.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_xcombcounter.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_write_hist.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/src/mx_xcounter.c">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_xcombcounter.c">
 			<Option target="readline"/>
 		</Unit>
-		<Unit filename="/Users/admin/Desktop/shell/CMakeLists.txt">
+		<Unit filename="/Users/admin/Desktop/ush/src/mx_xcounter.c">
+			<Option target="readline"/>
+		</Unit>
+		<Unit filename="/Users/admin/Desktop/ush/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

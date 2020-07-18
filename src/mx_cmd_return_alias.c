@@ -29,5 +29,7 @@ char *mx_cmd_return_alias(t_st *st, char *cmd, char *tmp, char *res) {
         mx_del_chararr(tmp);
         mx_del_chararr(res);
     }
+    if (strstr(cmd, "cd "))
+        cmd = mx_dash_spaces(cmd, NULL, 0, 0);
     return cmd;
 }

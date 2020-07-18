@@ -43,3 +43,4 @@ int mx_env_builtin(char *argv[]) {
     mx_strdel(&path);
     return status;
 }
+

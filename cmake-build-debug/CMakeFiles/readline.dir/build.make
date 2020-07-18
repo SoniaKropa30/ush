@@ -43,10 +43,10 @@ RM = /Users/admin/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/admin/Desktop/shell
+CMAKE_SOURCE_DIR = /Users/admin/Desktop/ush
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/admin/Desktop/shell/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/admin/Desktop/ush/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/readline.dir/depend.make
@@ -59,1290 +59,1303 @@ include CMakeFiles/readline.dir/flags.make
 
 CMakeFiles/readline.dir/src/builtin_cd.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/builtin_cd.c.o: ../src/builtin_cd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/readline.dir/src/builtin_cd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/builtin_cd.c.o   -c /Users/admin/Desktop/shell/src/builtin_cd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/readline.dir/src/builtin_cd.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/builtin_cd.c.o   -c /Users/admin/Desktop/ush/src/builtin_cd.c
 
 CMakeFiles/readline.dir/src/builtin_cd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/builtin_cd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/builtin_cd.c > CMakeFiles/readline.dir/src/builtin_cd.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/builtin_cd.c > CMakeFiles/readline.dir/src/builtin_cd.c.i
 
 CMakeFiles/readline.dir/src/builtin_cd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/builtin_cd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/builtin_cd.c -o CMakeFiles/readline.dir/src/builtin_cd.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/builtin_cd.c -o CMakeFiles/readline.dir/src/builtin_cd.c.s
 
 CMakeFiles/readline.dir/src/builtin_echo.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/builtin_echo.c.o: ../src/builtin_echo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/readline.dir/src/builtin_echo.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/builtin_echo.c.o   -c /Users/admin/Desktop/shell/src/builtin_echo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/readline.dir/src/builtin_echo.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/builtin_echo.c.o   -c /Users/admin/Desktop/ush/src/builtin_echo.c
 
 CMakeFiles/readline.dir/src/builtin_echo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/builtin_echo.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/builtin_echo.c > CMakeFiles/readline.dir/src/builtin_echo.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/builtin_echo.c > CMakeFiles/readline.dir/src/builtin_echo.c.i
 
 CMakeFiles/readline.dir/src/builtin_echo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/builtin_echo.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/builtin_echo.c -o CMakeFiles/readline.dir/src/builtin_echo.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/builtin_echo.c -o CMakeFiles/readline.dir/src/builtin_echo.c.s
 
 CMakeFiles/readline.dir/src/builtin_env.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/builtin_env.c.o: ../src/builtin_env.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/readline.dir/src/builtin_env.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/builtin_env.c.o   -c /Users/admin/Desktop/shell/src/builtin_env.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/readline.dir/src/builtin_env.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/builtin_env.c.o   -c /Users/admin/Desktop/ush/src/builtin_env.c
 
 CMakeFiles/readline.dir/src/builtin_env.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/builtin_env.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/builtin_env.c > CMakeFiles/readline.dir/src/builtin_env.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/builtin_env.c > CMakeFiles/readline.dir/src/builtin_env.c.i
 
 CMakeFiles/readline.dir/src/builtin_env.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/builtin_env.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/builtin_env.c -o CMakeFiles/readline.dir/src/builtin_env.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/builtin_env.c -o CMakeFiles/readline.dir/src/builtin_env.c.s
 
 CMakeFiles/readline.dir/src/builtin_export.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/builtin_export.c.o: ../src/builtin_export.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/readline.dir/src/builtin_export.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/builtin_export.c.o   -c /Users/admin/Desktop/shell/src/builtin_export.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/readline.dir/src/builtin_export.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/builtin_export.c.o   -c /Users/admin/Desktop/ush/src/builtin_export.c
 
 CMakeFiles/readline.dir/src/builtin_export.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/builtin_export.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/builtin_export.c > CMakeFiles/readline.dir/src/builtin_export.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/builtin_export.c > CMakeFiles/readline.dir/src/builtin_export.c.i
 
 CMakeFiles/readline.dir/src/builtin_export.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/builtin_export.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/builtin_export.c -o CMakeFiles/readline.dir/src/builtin_export.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/builtin_export.c -o CMakeFiles/readline.dir/src/builtin_export.c.s
 
 CMakeFiles/readline.dir/src/builtin_init_stract.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/builtin_init_stract.c.o: ../src/builtin_init_stract.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/readline.dir/src/builtin_init_stract.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/builtin_init_stract.c.o   -c /Users/admin/Desktop/shell/src/builtin_init_stract.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/readline.dir/src/builtin_init_stract.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/builtin_init_stract.c.o   -c /Users/admin/Desktop/ush/src/builtin_init_stract.c
 
 CMakeFiles/readline.dir/src/builtin_init_stract.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/builtin_init_stract.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/builtin_init_stract.c > CMakeFiles/readline.dir/src/builtin_init_stract.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/builtin_init_stract.c > CMakeFiles/readline.dir/src/builtin_init_stract.c.i
 
 CMakeFiles/readline.dir/src/builtin_init_stract.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/builtin_init_stract.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/builtin_init_stract.c -o CMakeFiles/readline.dir/src/builtin_init_stract.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/builtin_init_stract.c -o CMakeFiles/readline.dir/src/builtin_init_stract.c.s
 
 CMakeFiles/readline.dir/src/builtin_pwd.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/builtin_pwd.c.o: ../src/builtin_pwd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/readline.dir/src/builtin_pwd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/builtin_pwd.c.o   -c /Users/admin/Desktop/shell/src/builtin_pwd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/readline.dir/src/builtin_pwd.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/builtin_pwd.c.o   -c /Users/admin/Desktop/ush/src/builtin_pwd.c
 
 CMakeFiles/readline.dir/src/builtin_pwd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/builtin_pwd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/builtin_pwd.c > CMakeFiles/readline.dir/src/builtin_pwd.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/builtin_pwd.c > CMakeFiles/readline.dir/src/builtin_pwd.c.i
 
 CMakeFiles/readline.dir/src/builtin_pwd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/builtin_pwd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/builtin_pwd.c -o CMakeFiles/readline.dir/src/builtin_pwd.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/builtin_pwd.c -o CMakeFiles/readline.dir/src/builtin_pwd.c.s
 
 CMakeFiles/readline.dir/src/builtin_unset.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/builtin_unset.c.o: ../src/builtin_unset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/readline.dir/src/builtin_unset.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/builtin_unset.c.o   -c /Users/admin/Desktop/shell/src/builtin_unset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/readline.dir/src/builtin_unset.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/builtin_unset.c.o   -c /Users/admin/Desktop/ush/src/builtin_unset.c
 
 CMakeFiles/readline.dir/src/builtin_unset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/builtin_unset.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/builtin_unset.c > CMakeFiles/readline.dir/src/builtin_unset.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/builtin_unset.c > CMakeFiles/readline.dir/src/builtin_unset.c.i
 
 CMakeFiles/readline.dir/src/builtin_unset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/builtin_unset.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/builtin_unset.c -o CMakeFiles/readline.dir/src/builtin_unset.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/builtin_unset.c -o CMakeFiles/readline.dir/src/builtin_unset.c.s
 
 CMakeFiles/readline.dir/src/builtin_which.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/builtin_which.c.o: ../src/builtin_which.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/readline.dir/src/builtin_which.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/builtin_which.c.o   -c /Users/admin/Desktop/shell/src/builtin_which.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/readline.dir/src/builtin_which.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/builtin_which.c.o   -c /Users/admin/Desktop/ush/src/builtin_which.c
 
 CMakeFiles/readline.dir/src/builtin_which.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/builtin_which.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/builtin_which.c > CMakeFiles/readline.dir/src/builtin_which.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/builtin_which.c > CMakeFiles/readline.dir/src/builtin_which.c.i
 
 CMakeFiles/readline.dir/src/builtin_which.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/builtin_which.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/builtin_which.c -o CMakeFiles/readline.dir/src/builtin_which.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/builtin_which.c -o CMakeFiles/readline.dir/src/builtin_which.c.s
 
-CMakeFiles/readline.dir/src/buuiltin_which.c.o: CMakeFiles/readline.dir/flags.make
-CMakeFiles/readline.dir/src/buuiltin_which.c.o: ../src/buuiltin_which.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/readline.dir/src/buuiltin_which.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/buuiltin_which.c.o   -c /Users/admin/Desktop/shell/src/buuiltin_which.c
+CMakeFiles/readline.dir/src/buuuiltin_which.c.o: CMakeFiles/readline.dir/flags.make
+CMakeFiles/readline.dir/src/buuuiltin_which.c.o: ../src/buuuiltin_which.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/readline.dir/src/buuuiltin_which.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/buuuiltin_which.c.o   -c /Users/admin/Desktop/ush/src/buuuiltin_which.c
 
-CMakeFiles/readline.dir/src/buuiltin_which.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/buuiltin_which.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/buuiltin_which.c > CMakeFiles/readline.dir/src/buuiltin_which.c.i
+CMakeFiles/readline.dir/src/buuuiltin_which.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/buuuiltin_which.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/buuuiltin_which.c > CMakeFiles/readline.dir/src/buuuiltin_which.c.i
 
-CMakeFiles/readline.dir/src/buuiltin_which.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/buuiltin_which.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/buuiltin_which.c -o CMakeFiles/readline.dir/src/buuiltin_which.c.s
+CMakeFiles/readline.dir/src/buuuiltin_which.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/buuuiltin_which.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/buuuiltin_which.c -o CMakeFiles/readline.dir/src/buuuiltin_which.c.s
 
 CMakeFiles/readline.dir/src/main.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/readline.dir/src/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/main.c.o   -c /Users/admin/Desktop/shell/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/readline.dir/src/main.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/main.c.o   -c /Users/admin/Desktop/ush/src/main.c
 
 CMakeFiles/readline.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/main.c > CMakeFiles/readline.dir/src/main.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/main.c > CMakeFiles/readline.dir/src/main.c.i
 
 CMakeFiles/readline.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/main.c -o CMakeFiles/readline.dir/src/main.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/main.c -o CMakeFiles/readline.dir/src/main.c.s
 
 CMakeFiles/readline.dir/src/mx_arr_length.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_arr_length.c.o: ../src/mx_arr_length.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/readline.dir/src/mx_arr_length.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_arr_length.c.o   -c /Users/admin/Desktop/shell/src/mx_arr_length.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/readline.dir/src/mx_arr_length.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_arr_length.c.o   -c /Users/admin/Desktop/ush/src/mx_arr_length.c
 
 CMakeFiles/readline.dir/src/mx_arr_length.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_arr_length.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_arr_length.c > CMakeFiles/readline.dir/src/mx_arr_length.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_arr_length.c > CMakeFiles/readline.dir/src/mx_arr_length.c.i
 
 CMakeFiles/readline.dir/src/mx_arr_length.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_arr_length.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_arr_length.c -o CMakeFiles/readline.dir/src/mx_arr_length.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_arr_length.c -o CMakeFiles/readline.dir/src/mx_arr_length.c.s
 
 CMakeFiles/readline.dir/src/mx_arrows_motion.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_arrows_motion.c.o: ../src/mx_arrows_motion.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/readline.dir/src/mx_arrows_motion.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_arrows_motion.c.o   -c /Users/admin/Desktop/shell/src/mx_arrows_motion.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/readline.dir/src/mx_arrows_motion.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_arrows_motion.c.o   -c /Users/admin/Desktop/ush/src/mx_arrows_motion.c
 
 CMakeFiles/readline.dir/src/mx_arrows_motion.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_arrows_motion.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_arrows_motion.c > CMakeFiles/readline.dir/src/mx_arrows_motion.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_arrows_motion.c > CMakeFiles/readline.dir/src/mx_arrows_motion.c.i
 
 CMakeFiles/readline.dir/src/mx_arrows_motion.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_arrows_motion.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_arrows_motion.c -o CMakeFiles/readline.dir/src/mx_arrows_motion.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_arrows_motion.c -o CMakeFiles/readline.dir/src/mx_arrows_motion.c.s
 
 CMakeFiles/readline.dir/src/mx_backspace_action.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_backspace_action.c.o: ../src/mx_backspace_action.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/readline.dir/src/mx_backspace_action.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_backspace_action.c.o   -c /Users/admin/Desktop/shell/src/mx_backspace_action.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/readline.dir/src/mx_backspace_action.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_backspace_action.c.o   -c /Users/admin/Desktop/ush/src/mx_backspace_action.c
 
 CMakeFiles/readline.dir/src/mx_backspace_action.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_backspace_action.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_backspace_action.c > CMakeFiles/readline.dir/src/mx_backspace_action.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_backspace_action.c > CMakeFiles/readline.dir/src/mx_backspace_action.c.i
 
 CMakeFiles/readline.dir/src/mx_backspace_action.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_backspace_action.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_backspace_action.c -o CMakeFiles/readline.dir/src/mx_backspace_action.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_backspace_action.c -o CMakeFiles/readline.dir/src/mx_backspace_action.c.s
+
+CMakeFiles/readline.dir/src/mx_builtin_alias.c.o: CMakeFiles/readline.dir/flags.make
+CMakeFiles/readline.dir/src/mx_builtin_alias.c.o: ../src/mx_builtin_alias.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/readline.dir/src/mx_builtin_alias.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_builtin_alias.c.o   -c /Users/admin/Desktop/ush/src/mx_builtin_alias.c
+
+CMakeFiles/readline.dir/src/mx_builtin_alias.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_builtin_alias.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_builtin_alias.c > CMakeFiles/readline.dir/src/mx_builtin_alias.c.i
+
+CMakeFiles/readline.dir/src/mx_builtin_alias.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_builtin_alias.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_builtin_alias.c -o CMakeFiles/readline.dir/src/mx_builtin_alias.c.s
 
 CMakeFiles/readline.dir/src/mx_cd_l.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_cd_l.c.o: ../src/mx_cd_l.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/readline.dir/src/mx_cd_l.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_cd_l.c.o   -c /Users/admin/Desktop/shell/src/mx_cd_l.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/readline.dir/src/mx_cd_l.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_cd_l.c.o   -c /Users/admin/Desktop/ush/src/mx_cd_l.c
 
 CMakeFiles/readline.dir/src/mx_cd_l.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_cd_l.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_cd_l.c > CMakeFiles/readline.dir/src/mx_cd_l.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_cd_l.c > CMakeFiles/readline.dir/src/mx_cd_l.c.i
 
 CMakeFiles/readline.dir/src/mx_cd_l.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_cd_l.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_cd_l.c -o CMakeFiles/readline.dir/src/mx_cd_l.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_cd_l.c -o CMakeFiles/readline.dir/src/mx_cd_l.c.s
 
 CMakeFiles/readline.dir/src/mx_cd_p.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_cd_p.c.o: ../src/mx_cd_p.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/readline.dir/src/mx_cd_p.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_cd_p.c.o   -c /Users/admin/Desktop/shell/src/mx_cd_p.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/readline.dir/src/mx_cd_p.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_cd_p.c.o   -c /Users/admin/Desktop/ush/src/mx_cd_p.c
 
 CMakeFiles/readline.dir/src/mx_cd_p.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_cd_p.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_cd_p.c > CMakeFiles/readline.dir/src/mx_cd_p.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_cd_p.c > CMakeFiles/readline.dir/src/mx_cd_p.c.i
 
 CMakeFiles/readline.dir/src/mx_cd_p.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_cd_p.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_cd_p.c -o CMakeFiles/readline.dir/src/mx_cd_p.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_cd_p.c -o CMakeFiles/readline.dir/src/mx_cd_p.c.s
 
 CMakeFiles/readline.dir/src/mx_check_env.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_check_env.c.o: ../src/mx_check_env.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/readline.dir/src/mx_check_env.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_check_env.c.o   -c /Users/admin/Desktop/shell/src/mx_check_env.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/readline.dir/src/mx_check_env.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_check_env.c.o   -c /Users/admin/Desktop/ush/src/mx_check_env.c
 
 CMakeFiles/readline.dir/src/mx_check_env.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_check_env.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_check_env.c > CMakeFiles/readline.dir/src/mx_check_env.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_check_env.c > CMakeFiles/readline.dir/src/mx_check_env.c.i
 
 CMakeFiles/readline.dir/src/mx_check_env.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_check_env.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_check_env.c -o CMakeFiles/readline.dir/src/mx_check_env.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_check_env.c -o CMakeFiles/readline.dir/src/mx_check_env.c.s
 
 CMakeFiles/readline.dir/src/mx_check_quotes.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_check_quotes.c.o: ../src/mx_check_quotes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/readline.dir/src/mx_check_quotes.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_check_quotes.c.o   -c /Users/admin/Desktop/shell/src/mx_check_quotes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/readline.dir/src/mx_check_quotes.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_check_quotes.c.o   -c /Users/admin/Desktop/ush/src/mx_check_quotes.c
 
 CMakeFiles/readline.dir/src/mx_check_quotes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_check_quotes.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_check_quotes.c > CMakeFiles/readline.dir/src/mx_check_quotes.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_check_quotes.c > CMakeFiles/readline.dir/src/mx_check_quotes.c.i
 
 CMakeFiles/readline.dir/src/mx_check_quotes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_check_quotes.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_check_quotes.c -o CMakeFiles/readline.dir/src/mx_check_quotes.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_check_quotes.c -o CMakeFiles/readline.dir/src/mx_check_quotes.c.s
 
 CMakeFiles/readline.dir/src/mx_check_slash.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_check_slash.c.o: ../src/mx_check_slash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/readline.dir/src/mx_check_slash.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_check_slash.c.o   -c /Users/admin/Desktop/shell/src/mx_check_slash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/readline.dir/src/mx_check_slash.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_check_slash.c.o   -c /Users/admin/Desktop/ush/src/mx_check_slash.c
 
 CMakeFiles/readline.dir/src/mx_check_slash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_check_slash.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_check_slash.c > CMakeFiles/readline.dir/src/mx_check_slash.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_check_slash.c > CMakeFiles/readline.dir/src/mx_check_slash.c.i
 
 CMakeFiles/readline.dir/src/mx_check_slash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_check_slash.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_check_slash.c -o CMakeFiles/readline.dir/src/mx_check_slash.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_check_slash.c -o CMakeFiles/readline.dir/src/mx_check_slash.c.s
 
 CMakeFiles/readline.dir/src/mx_clear_screen.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_clear_screen.c.o: ../src/mx_clear_screen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/readline.dir/src/mx_clear_screen.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_clear_screen.c.o   -c /Users/admin/Desktop/shell/src/mx_clear_screen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/readline.dir/src/mx_clear_screen.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_clear_screen.c.o   -c /Users/admin/Desktop/ush/src/mx_clear_screen.c
 
 CMakeFiles/readline.dir/src/mx_clear_screen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_clear_screen.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_clear_screen.c > CMakeFiles/readline.dir/src/mx_clear_screen.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_clear_screen.c > CMakeFiles/readline.dir/src/mx_clear_screen.c.i
 
 CMakeFiles/readline.dir/src/mx_clear_screen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_clear_screen.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_clear_screen.c -o CMakeFiles/readline.dir/src/mx_clear_screen.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_clear_screen.c -o CMakeFiles/readline.dir/src/mx_clear_screen.c.s
 
 CMakeFiles/readline.dir/src/mx_cmd_return_alias.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_cmd_return_alias.c.o: ../src/mx_cmd_return_alias.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/readline.dir/src/mx_cmd_return_alias.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_cmd_return_alias.c.o   -c /Users/admin/Desktop/shell/src/mx_cmd_return_alias.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/readline.dir/src/mx_cmd_return_alias.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_cmd_return_alias.c.o   -c /Users/admin/Desktop/ush/src/mx_cmd_return_alias.c
 
 CMakeFiles/readline.dir/src/mx_cmd_return_alias.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_cmd_return_alias.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_cmd_return_alias.c > CMakeFiles/readline.dir/src/mx_cmd_return_alias.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_cmd_return_alias.c > CMakeFiles/readline.dir/src/mx_cmd_return_alias.c.i
 
 CMakeFiles/readline.dir/src/mx_cmd_return_alias.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_cmd_return_alias.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_cmd_return_alias.c -o CMakeFiles/readline.dir/src/mx_cmd_return_alias.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_cmd_return_alias.c -o CMakeFiles/readline.dir/src/mx_cmd_return_alias.c.s
 
 CMakeFiles/readline.dir/src/mx_combcounter.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_combcounter.c.o: ../src/mx_combcounter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/readline.dir/src/mx_combcounter.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_combcounter.c.o   -c /Users/admin/Desktop/shell/src/mx_combcounter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/readline.dir/src/mx_combcounter.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_combcounter.c.o   -c /Users/admin/Desktop/ush/src/mx_combcounter.c
 
 CMakeFiles/readline.dir/src/mx_combcounter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_combcounter.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_combcounter.c > CMakeFiles/readline.dir/src/mx_combcounter.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_combcounter.c > CMakeFiles/readline.dir/src/mx_combcounter.c.i
 
 CMakeFiles/readline.dir/src/mx_combcounter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_combcounter.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_combcounter.c -o CMakeFiles/readline.dir/src/mx_combcounter.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_combcounter.c -o CMakeFiles/readline.dir/src/mx_combcounter.c.s
 
 CMakeFiles/readline.dir/src/mx_command_pars.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_command_pars.c.o: ../src/mx_command_pars.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/readline.dir/src/mx_command_pars.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_command_pars.c.o   -c /Users/admin/Desktop/shell/src/mx_command_pars.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/readline.dir/src/mx_command_pars.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_command_pars.c.o   -c /Users/admin/Desktop/ush/src/mx_command_pars.c
 
 CMakeFiles/readline.dir/src/mx_command_pars.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_command_pars.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_command_pars.c > CMakeFiles/readline.dir/src/mx_command_pars.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_command_pars.c > CMakeFiles/readline.dir/src/mx_command_pars.c.i
 
 CMakeFiles/readline.dir/src/mx_command_pars.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_command_pars.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_command_pars.c -o CMakeFiles/readline.dir/src/mx_command_pars.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_command_pars.c -o CMakeFiles/readline.dir/src/mx_command_pars.c.s
 
 CMakeFiles/readline.dir/src/mx_command_sub.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_command_sub.c.o: ../src/mx_command_sub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/readline.dir/src/mx_command_sub.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_command_sub.c.o   -c /Users/admin/Desktop/shell/src/mx_command_sub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/readline.dir/src/mx_command_sub.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_command_sub.c.o   -c /Users/admin/Desktop/ush/src/mx_command_sub.c
 
 CMakeFiles/readline.dir/src/mx_command_sub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_command_sub.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_command_sub.c > CMakeFiles/readline.dir/src/mx_command_sub.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_command_sub.c > CMakeFiles/readline.dir/src/mx_command_sub.c.i
 
 CMakeFiles/readline.dir/src/mx_command_sub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_command_sub.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_command_sub.c -o CMakeFiles/readline.dir/src/mx_command_sub.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_command_sub.c -o CMakeFiles/readline.dir/src/mx_command_sub.c.s
 
 CMakeFiles/readline.dir/src/mx_complex_cmd.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_complex_cmd.c.o: ../src/mx_complex_cmd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/readline.dir/src/mx_complex_cmd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_complex_cmd.c.o   -c /Users/admin/Desktop/shell/src/mx_complex_cmd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/readline.dir/src/mx_complex_cmd.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_complex_cmd.c.o   -c /Users/admin/Desktop/ush/src/mx_complex_cmd.c
 
 CMakeFiles/readline.dir/src/mx_complex_cmd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_complex_cmd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_complex_cmd.c > CMakeFiles/readline.dir/src/mx_complex_cmd.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_complex_cmd.c > CMakeFiles/readline.dir/src/mx_complex_cmd.c.i
 
 CMakeFiles/readline.dir/src/mx_complex_cmd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_complex_cmd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_complex_cmd.c -o CMakeFiles/readline.dir/src/mx_complex_cmd.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_complex_cmd.c -o CMakeFiles/readline.dir/src/mx_complex_cmd.c.s
 
 CMakeFiles/readline.dir/src/mx_config_init.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_config_init.c.o: ../src/mx_config_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/readline.dir/src/mx_config_init.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_config_init.c.o   -c /Users/admin/Desktop/shell/src/mx_config_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/readline.dir/src/mx_config_init.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_config_init.c.o   -c /Users/admin/Desktop/ush/src/mx_config_init.c
 
 CMakeFiles/readline.dir/src/mx_config_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_config_init.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_config_init.c > CMakeFiles/readline.dir/src/mx_config_init.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_config_init.c > CMakeFiles/readline.dir/src/mx_config_init.c.i
 
 CMakeFiles/readline.dir/src/mx_config_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_config_init.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_config_init.c -o CMakeFiles/readline.dir/src/mx_config_init.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_config_init.c -o CMakeFiles/readline.dir/src/mx_config_init.c.s
 
 CMakeFiles/readline.dir/src/mx_conveer.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_conveer.c.o: ../src/mx_conveer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/readline.dir/src/mx_conveer.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_conveer.c.o   -c /Users/admin/Desktop/shell/src/mx_conveer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/readline.dir/src/mx_conveer.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_conveer.c.o   -c /Users/admin/Desktop/ush/src/mx_conveer.c
 
 CMakeFiles/readline.dir/src/mx_conveer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_conveer.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_conveer.c > CMakeFiles/readline.dir/src/mx_conveer.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_conveer.c > CMakeFiles/readline.dir/src/mx_conveer.c.i
 
 CMakeFiles/readline.dir/src/mx_conveer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_conveer.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_conveer.c -o CMakeFiles/readline.dir/src/mx_conveer.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_conveer.c -o CMakeFiles/readline.dir/src/mx_conveer.c.s
 
 CMakeFiles/readline.dir/src/mx_cooked_mode_on.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_cooked_mode_on.c.o: ../src/mx_cooked_mode_on.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/readline.dir/src/mx_cooked_mode_on.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_cooked_mode_on.c.o   -c /Users/admin/Desktop/shell/src/mx_cooked_mode_on.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/readline.dir/src/mx_cooked_mode_on.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_cooked_mode_on.c.o   -c /Users/admin/Desktop/ush/src/mx_cooked_mode_on.c
 
 CMakeFiles/readline.dir/src/mx_cooked_mode_on.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_cooked_mode_on.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_cooked_mode_on.c > CMakeFiles/readline.dir/src/mx_cooked_mode_on.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_cooked_mode_on.c > CMakeFiles/readline.dir/src/mx_cooked_mode_on.c.i
 
 CMakeFiles/readline.dir/src/mx_cooked_mode_on.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_cooked_mode_on.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_cooked_mode_on.c -o CMakeFiles/readline.dir/src/mx_cooked_mode_on.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_cooked_mode_on.c -o CMakeFiles/readline.dir/src/mx_cooked_mode_on.c.s
 
 CMakeFiles/readline.dir/src/mx_count_pipes.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_count_pipes.c.o: ../src/mx_count_pipes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/readline.dir/src/mx_count_pipes.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_count_pipes.c.o   -c /Users/admin/Desktop/shell/src/mx_count_pipes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/readline.dir/src/mx_count_pipes.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_count_pipes.c.o   -c /Users/admin/Desktop/ush/src/mx_count_pipes.c
 
 CMakeFiles/readline.dir/src/mx_count_pipes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_count_pipes.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_count_pipes.c > CMakeFiles/readline.dir/src/mx_count_pipes.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_count_pipes.c > CMakeFiles/readline.dir/src/mx_count_pipes.c.i
 
 CMakeFiles/readline.dir/src/mx_count_pipes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_count_pipes.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_count_pipes.c -o CMakeFiles/readline.dir/src/mx_count_pipes.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_count_pipes.c -o CMakeFiles/readline.dir/src/mx_count_pipes.c.s
 
 CMakeFiles/readline.dir/src/mx_count_streams.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_count_streams.c.o: ../src/mx_count_streams.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/readline.dir/src/mx_count_streams.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_count_streams.c.o   -c /Users/admin/Desktop/shell/src/mx_count_streams.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/readline.dir/src/mx_count_streams.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_count_streams.c.o   -c /Users/admin/Desktop/ush/src/mx_count_streams.c
 
 CMakeFiles/readline.dir/src/mx_count_streams.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_count_streams.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_count_streams.c > CMakeFiles/readline.dir/src/mx_count_streams.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_count_streams.c > CMakeFiles/readline.dir/src/mx_count_streams.c.i
 
 CMakeFiles/readline.dir/src/mx_count_streams.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_count_streams.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_count_streams.c -o CMakeFiles/readline.dir/src/mx_count_streams.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_count_streams.c -o CMakeFiles/readline.dir/src/mx_count_streams.c.s
 
 CMakeFiles/readline.dir/src/mx_counter.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_counter.c.o: ../src/mx_counter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/readline.dir/src/mx_counter.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_counter.c.o   -c /Users/admin/Desktop/shell/src/mx_counter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/readline.dir/src/mx_counter.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_counter.c.o   -c /Users/admin/Desktop/ush/src/mx_counter.c
 
 CMakeFiles/readline.dir/src/mx_counter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_counter.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_counter.c > CMakeFiles/readline.dir/src/mx_counter.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_counter.c > CMakeFiles/readline.dir/src/mx_counter.c.i
 
 CMakeFiles/readline.dir/src/mx_counter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_counter.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_counter.c -o CMakeFiles/readline.dir/src/mx_counter.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_counter.c -o CMakeFiles/readline.dir/src/mx_counter.c.s
+
+CMakeFiles/readline.dir/src/mx_dash_spaces.c.o: CMakeFiles/readline.dir/flags.make
+CMakeFiles/readline.dir/src/mx_dash_spaces.c.o: ../src/mx_dash_spaces.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/readline.dir/src/mx_dash_spaces.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_dash_spaces.c.o   -c /Users/admin/Desktop/ush/src/mx_dash_spaces.c
+
+CMakeFiles/readline.dir/src/mx_dash_spaces.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_dash_spaces.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_dash_spaces.c > CMakeFiles/readline.dir/src/mx_dash_spaces.c.i
+
+CMakeFiles/readline.dir/src/mx_dash_spaces.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_dash_spaces.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_dash_spaces.c -o CMakeFiles/readline.dir/src/mx_dash_spaces.c.s
 
 CMakeFiles/readline.dir/src/mx_del_chararr.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_del_chararr.c.o: ../src/mx_del_chararr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/readline.dir/src/mx_del_chararr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_del_chararr.c.o   -c /Users/admin/Desktop/shell/src/mx_del_chararr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/readline.dir/src/mx_del_chararr.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_del_chararr.c.o   -c /Users/admin/Desktop/ush/src/mx_del_chararr.c
 
 CMakeFiles/readline.dir/src/mx_del_chararr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_del_chararr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_del_chararr.c > CMakeFiles/readline.dir/src/mx_del_chararr.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_del_chararr.c > CMakeFiles/readline.dir/src/mx_del_chararr.c.i
 
 CMakeFiles/readline.dir/src/mx_del_chararr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_del_chararr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_del_chararr.c -o CMakeFiles/readline.dir/src/mx_del_chararr.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_del_chararr.c -o CMakeFiles/readline.dir/src/mx_del_chararr.c.s
 
 CMakeFiles/readline.dir/src/mx_del_conveer.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_del_conveer.c.o: ../src/mx_del_conveer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/readline.dir/src/mx_del_conveer.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_del_conveer.c.o   -c /Users/admin/Desktop/shell/src/mx_del_conveer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/readline.dir/src/mx_del_conveer.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_del_conveer.c.o   -c /Users/admin/Desktop/ush/src/mx_del_conveer.c
 
 CMakeFiles/readline.dir/src/mx_del_conveer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_del_conveer.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_del_conveer.c > CMakeFiles/readline.dir/src/mx_del_conveer.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_del_conveer.c > CMakeFiles/readline.dir/src/mx_del_conveer.c.i
 
 CMakeFiles/readline.dir/src/mx_del_conveer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_del_conveer.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_del_conveer.c -o CMakeFiles/readline.dir/src/mx_del_conveer.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_del_conveer.c -o CMakeFiles/readline.dir/src/mx_del_conveer.c.s
 
 CMakeFiles/readline.dir/src/mx_die.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_die.c.o: ../src/mx_die.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/readline.dir/src/mx_die.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_die.c.o   -c /Users/admin/Desktop/shell/src/mx_die.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/readline.dir/src/mx_die.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_die.c.o   -c /Users/admin/Desktop/ush/src/mx_die.c
 
 CMakeFiles/readline.dir/src/mx_die.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_die.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_die.c > CMakeFiles/readline.dir/src/mx_die.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_die.c > CMakeFiles/readline.dir/src/mx_die.c.i
 
 CMakeFiles/readline.dir/src/mx_die.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_die.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_die.c -o CMakeFiles/readline.dir/src/mx_die.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_die.c -o CMakeFiles/readline.dir/src/mx_die.c.s
 
 CMakeFiles/readline.dir/src/mx_editor_processing.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_editor_processing.c.o: ../src/mx_editor_processing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/readline.dir/src/mx_editor_processing.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_editor_processing.c.o   -c /Users/admin/Desktop/shell/src/mx_editor_processing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/readline.dir/src/mx_editor_processing.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_editor_processing.c.o   -c /Users/admin/Desktop/ush/src/mx_editor_processing.c
 
 CMakeFiles/readline.dir/src/mx_editor_processing.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_editor_processing.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_editor_processing.c > CMakeFiles/readline.dir/src/mx_editor_processing.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_editor_processing.c > CMakeFiles/readline.dir/src/mx_editor_processing.c.i
 
 CMakeFiles/readline.dir/src/mx_editor_processing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_editor_processing.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_editor_processing.c -o CMakeFiles/readline.dir/src/mx_editor_processing.c.s
-
-CMakeFiles/readline.dir/src/mx_env_copy.c.o: CMakeFiles/readline.dir/flags.make
-CMakeFiles/readline.dir/src/mx_env_copy.c.o: ../src/mx_env_copy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/readline.dir/src/mx_env_copy.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_env_copy.c.o   -c /Users/admin/Desktop/shell/src/mx_env_copy.c
-
-CMakeFiles/readline.dir/src/mx_env_copy.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_env_copy.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_env_copy.c > CMakeFiles/readline.dir/src/mx_env_copy.c.i
-
-CMakeFiles/readline.dir/src/mx_env_copy.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_env_copy.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_env_copy.c -o CMakeFiles/readline.dir/src/mx_env_copy.c.s
-
-CMakeFiles/readline.dir/src/mx_env_get_value.c.o: CMakeFiles/readline.dir/flags.make
-CMakeFiles/readline.dir/src/mx_env_get_value.c.o: ../src/mx_env_get_value.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/readline.dir/src/mx_env_get_value.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_env_get_value.c.o   -c /Users/admin/Desktop/shell/src/mx_env_get_value.c
-
-CMakeFiles/readline.dir/src/mx_env_get_value.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_env_get_value.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_env_get_value.c > CMakeFiles/readline.dir/src/mx_env_get_value.c.i
-
-CMakeFiles/readline.dir/src/mx_env_get_value.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_env_get_value.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_env_get_value.c -o CMakeFiles/readline.dir/src/mx_env_get_value.c.s
-
-CMakeFiles/readline.dir/src/mx_env_new_delete.c.o: CMakeFiles/readline.dir/flags.make
-CMakeFiles/readline.dir/src/mx_env_new_delete.c.o: ../src/mx_env_new_delete.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/readline.dir/src/mx_env_new_delete.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_env_new_delete.c.o   -c /Users/admin/Desktop/shell/src/mx_env_new_delete.c
-
-CMakeFiles/readline.dir/src/mx_env_new_delete.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_env_new_delete.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_env_new_delete.c > CMakeFiles/readline.dir/src/mx_env_new_delete.c.i
-
-CMakeFiles/readline.dir/src/mx_env_new_delete.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_env_new_delete.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_env_new_delete.c -o CMakeFiles/readline.dir/src/mx_env_new_delete.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_editor_processing.c -o CMakeFiles/readline.dir/src/mx_editor_processing.c.s
 
 CMakeFiles/readline.dir/src/mx_env_set_var.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_env_set_var.c.o: ../src/mx_env_set_var.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/readline.dir/src/mx_env_set_var.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_env_set_var.c.o   -c /Users/admin/Desktop/shell/src/mx_env_set_var.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/readline.dir/src/mx_env_set_var.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_env_set_var.c.o   -c /Users/admin/Desktop/ush/src/mx_env_set_var.c
 
 CMakeFiles/readline.dir/src/mx_env_set_var.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_env_set_var.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_env_set_var.c > CMakeFiles/readline.dir/src/mx_env_set_var.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_env_set_var.c > CMakeFiles/readline.dir/src/mx_env_set_var.c.i
 
 CMakeFiles/readline.dir/src/mx_env_set_var.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_env_set_var.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_env_set_var.c -o CMakeFiles/readline.dir/src/mx_env_set_var.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_env_set_var.c -o CMakeFiles/readline.dir/src/mx_env_set_var.c.s
 
 CMakeFiles/readline.dir/src/mx_environ_copy.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_environ_copy.c.o: ../src/mx_environ_copy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/readline.dir/src/mx_environ_copy.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_environ_copy.c.o   -c /Users/admin/Desktop/shell/src/mx_environ_copy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/readline.dir/src/mx_environ_copy.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_environ_copy.c.o   -c /Users/admin/Desktop/ush/src/mx_environ_copy.c
 
 CMakeFiles/readline.dir/src/mx_environ_copy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_environ_copy.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_environ_copy.c > CMakeFiles/readline.dir/src/mx_environ_copy.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_environ_copy.c > CMakeFiles/readline.dir/src/mx_environ_copy.c.i
 
 CMakeFiles/readline.dir/src/mx_environ_copy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_environ_copy.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_environ_copy.c -o CMakeFiles/readline.dir/src/mx_environ_copy.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_environ_copy.c -o CMakeFiles/readline.dir/src/mx_environ_copy.c.s
 
 CMakeFiles/readline.dir/src/mx_environ_handler_env.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_environ_handler_env.c.o: ../src/mx_environ_handler_env.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/readline.dir/src/mx_environ_handler_env.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_environ_handler_env.c.o   -c /Users/admin/Desktop/shell/src/mx_environ_handler_env.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/readline.dir/src/mx_environ_handler_env.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_environ_handler_env.c.o   -c /Users/admin/Desktop/ush/src/mx_environ_handler_env.c
 
 CMakeFiles/readline.dir/src/mx_environ_handler_env.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_environ_handler_env.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_environ_handler_env.c > CMakeFiles/readline.dir/src/mx_environ_handler_env.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_environ_handler_env.c > CMakeFiles/readline.dir/src/mx_environ_handler_env.c.i
 
 CMakeFiles/readline.dir/src/mx_environ_handler_env.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_environ_handler_env.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_environ_handler_env.c -o CMakeFiles/readline.dir/src/mx_environ_handler_env.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_environ_handler_env.c -o CMakeFiles/readline.dir/src/mx_environ_handler_env.c.s
 
 CMakeFiles/readline.dir/src/mx_exec_env.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_exec_env.c.o: ../src/mx_exec_env.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/readline.dir/src/mx_exec_env.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_exec_env.c.o   -c /Users/admin/Desktop/shell/src/mx_exec_env.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/readline.dir/src/mx_exec_env.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_exec_env.c.o   -c /Users/admin/Desktop/ush/src/mx_exec_env.c
 
 CMakeFiles/readline.dir/src/mx_exec_env.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_exec_env.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_exec_env.c > CMakeFiles/readline.dir/src/mx_exec_env.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_exec_env.c > CMakeFiles/readline.dir/src/mx_exec_env.c.i
 
 CMakeFiles/readline.dir/src/mx_exec_env.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_exec_env.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_exec_env.c -o CMakeFiles/readline.dir/src/mx_exec_env.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_exec_env.c -o CMakeFiles/readline.dir/src/mx_exec_env.c.s
 
 CMakeFiles/readline.dir/src/mx_export_var_to_lists.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_export_var_to_lists.c.o: ../src/mx_export_var_to_lists.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/readline.dir/src/mx_export_var_to_lists.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_export_var_to_lists.c.o   -c /Users/admin/Desktop/shell/src/mx_export_var_to_lists.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/readline.dir/src/mx_export_var_to_lists.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_export_var_to_lists.c.o   -c /Users/admin/Desktop/ush/src/mx_export_var_to_lists.c
 
 CMakeFiles/readline.dir/src/mx_export_var_to_lists.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_export_var_to_lists.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_export_var_to_lists.c > CMakeFiles/readline.dir/src/mx_export_var_to_lists.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_export_var_to_lists.c > CMakeFiles/readline.dir/src/mx_export_var_to_lists.c.i
 
 CMakeFiles/readline.dir/src/mx_export_var_to_lists.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_export_var_to_lists.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_export_var_to_lists.c -o CMakeFiles/readline.dir/src/mx_export_var_to_lists.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_export_var_to_lists.c -o CMakeFiles/readline.dir/src/mx_export_var_to_lists.c.s
 
 CMakeFiles/readline.dir/src/mx_file_input.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_file_input.c.o: ../src/mx_file_input.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/readline.dir/src/mx_file_input.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_file_input.c.o   -c /Users/admin/Desktop/shell/src/mx_file_input.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/readline.dir/src/mx_file_input.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_file_input.c.o   -c /Users/admin/Desktop/ush/src/mx_file_input.c
 
 CMakeFiles/readline.dir/src/mx_file_input.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_file_input.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_file_input.c > CMakeFiles/readline.dir/src/mx_file_input.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_file_input.c > CMakeFiles/readline.dir/src/mx_file_input.c.i
 
 CMakeFiles/readline.dir/src/mx_file_input.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_file_input.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_file_input.c -o CMakeFiles/readline.dir/src/mx_file_input.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_file_input.c -o CMakeFiles/readline.dir/src/mx_file_input.c.s
 
 CMakeFiles/readline.dir/src/mx_file_output.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_file_output.c.o: ../src/mx_file_output.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/readline.dir/src/mx_file_output.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_file_output.c.o   -c /Users/admin/Desktop/shell/src/mx_file_output.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/readline.dir/src/mx_file_output.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_file_output.c.o   -c /Users/admin/Desktop/ush/src/mx_file_output.c
 
 CMakeFiles/readline.dir/src/mx_file_output.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_file_output.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_file_output.c > CMakeFiles/readline.dir/src/mx_file_output.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_file_output.c > CMakeFiles/readline.dir/src/mx_file_output.c.i
 
 CMakeFiles/readline.dir/src/mx_file_output.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_file_output.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_file_output.c -o CMakeFiles/readline.dir/src/mx_file_output.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_file_output.c -o CMakeFiles/readline.dir/src/mx_file_output.c.s
 
 CMakeFiles/readline.dir/src/mx_final_exe.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_final_exe.c.o: ../src/mx_final_exe.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/readline.dir/src/mx_final_exe.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_final_exe.c.o   -c /Users/admin/Desktop/shell/src/mx_final_exe.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/readline.dir/src/mx_final_exe.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_final_exe.c.o   -c /Users/admin/Desktop/ush/src/mx_final_exe.c
 
 CMakeFiles/readline.dir/src/mx_final_exe.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_final_exe.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_final_exe.c > CMakeFiles/readline.dir/src/mx_final_exe.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_final_exe.c > CMakeFiles/readline.dir/src/mx_final_exe.c.i
 
 CMakeFiles/readline.dir/src/mx_final_exe.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_final_exe.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_final_exe.c -o CMakeFiles/readline.dir/src/mx_final_exe.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_final_exe.c -o CMakeFiles/readline.dir/src/mx_final_exe.c.s
 
 CMakeFiles/readline.dir/src/mx_flags_handler_env.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_flags_handler_env.c.o: ../src/mx_flags_handler_env.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/readline.dir/src/mx_flags_handler_env.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_flags_handler_env.c.o   -c /Users/admin/Desktop/shell/src/mx_flags_handler_env.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/readline.dir/src/mx_flags_handler_env.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_flags_handler_env.c.o   -c /Users/admin/Desktop/ush/src/mx_flags_handler_env.c
 
 CMakeFiles/readline.dir/src/mx_flags_handler_env.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_flags_handler_env.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_flags_handler_env.c > CMakeFiles/readline.dir/src/mx_flags_handler_env.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_flags_handler_env.c > CMakeFiles/readline.dir/src/mx_flags_handler_env.c.i
 
 CMakeFiles/readline.dir/src/mx_flags_handler_env.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_flags_handler_env.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_flags_handler_env.c -o CMakeFiles/readline.dir/src/mx_flags_handler_env.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_flags_handler_env.c -o CMakeFiles/readline.dir/src/mx_flags_handler_env.c.s
 
 CMakeFiles/readline.dir/src/mx_free_assumptions.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_free_assumptions.c.o: ../src/mx_free_assumptions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/readline.dir/src/mx_free_assumptions.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_free_assumptions.c.o   -c /Users/admin/Desktop/shell/src/mx_free_assumptions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/readline.dir/src/mx_free_assumptions.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_free_assumptions.c.o   -c /Users/admin/Desktop/ush/src/mx_free_assumptions.c
 
 CMakeFiles/readline.dir/src/mx_free_assumptions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_free_assumptions.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_free_assumptions.c > CMakeFiles/readline.dir/src/mx_free_assumptions.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_free_assumptions.c > CMakeFiles/readline.dir/src/mx_free_assumptions.c.i
 
 CMakeFiles/readline.dir/src/mx_free_assumptions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_free_assumptions.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_free_assumptions.c -o CMakeFiles/readline.dir/src/mx_free_assumptions.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_free_assumptions.c -o CMakeFiles/readline.dir/src/mx_free_assumptions.c.s
+
+CMakeFiles/readline.dir/src/mx_get_all_alias.c.o: CMakeFiles/readline.dir/flags.make
+CMakeFiles/readline.dir/src/mx_get_all_alias.c.o: ../src/mx_get_all_alias.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/readline.dir/src/mx_get_all_alias.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_get_all_alias.c.o   -c /Users/admin/Desktop/ush/src/mx_get_all_alias.c
+
+CMakeFiles/readline.dir/src/mx_get_all_alias.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_get_all_alias.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_get_all_alias.c > CMakeFiles/readline.dir/src/mx_get_all_alias.c.i
+
+CMakeFiles/readline.dir/src/mx_get_all_alias.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_get_all_alias.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_get_all_alias.c -o CMakeFiles/readline.dir/src/mx_get_all_alias.c.s
 
 CMakeFiles/readline.dir/src/mx_get_argv.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_get_argv.c.o: ../src/mx_get_argv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/readline.dir/src/mx_get_argv.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_get_argv.c.o   -c /Users/admin/Desktop/shell/src/mx_get_argv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/readline.dir/src/mx_get_argv.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_get_argv.c.o   -c /Users/admin/Desktop/ush/src/mx_get_argv.c
 
 CMakeFiles/readline.dir/src/mx_get_argv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_get_argv.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_get_argv.c > CMakeFiles/readline.dir/src/mx_get_argv.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_get_argv.c > CMakeFiles/readline.dir/src/mx_get_argv.c.i
 
 CMakeFiles/readline.dir/src/mx_get_argv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_get_argv.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_get_argv.c -o CMakeFiles/readline.dir/src/mx_get_argv.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_get_argv.c -o CMakeFiles/readline.dir/src/mx_get_argv.c.s
 
 CMakeFiles/readline.dir/src/mx_get_cmd_tok.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_get_cmd_tok.c.o: ../src/mx_get_cmd_tok.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/readline.dir/src/mx_get_cmd_tok.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_get_cmd_tok.c.o   -c /Users/admin/Desktop/shell/src/mx_get_cmd_tok.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/readline.dir/src/mx_get_cmd_tok.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_get_cmd_tok.c.o   -c /Users/admin/Desktop/ush/src/mx_get_cmd_tok.c
 
 CMakeFiles/readline.dir/src/mx_get_cmd_tok.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_get_cmd_tok.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_get_cmd_tok.c > CMakeFiles/readline.dir/src/mx_get_cmd_tok.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_get_cmd_tok.c > CMakeFiles/readline.dir/src/mx_get_cmd_tok.c.i
 
 CMakeFiles/readline.dir/src/mx_get_cmd_tok.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_get_cmd_tok.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_get_cmd_tok.c -o CMakeFiles/readline.dir/src/mx_get_cmd_tok.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_get_cmd_tok.c -o CMakeFiles/readline.dir/src/mx_get_cmd_tok.c.s
 
 CMakeFiles/readline.dir/src/mx_get_com_sub.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_get_com_sub.c.o: ../src/mx_get_com_sub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/readline.dir/src/mx_get_com_sub.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_get_com_sub.c.o   -c /Users/admin/Desktop/shell/src/mx_get_com_sub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/readline.dir/src/mx_get_com_sub.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_get_com_sub.c.o   -c /Users/admin/Desktop/ush/src/mx_get_com_sub.c
 
 CMakeFiles/readline.dir/src/mx_get_com_sub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_get_com_sub.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_get_com_sub.c > CMakeFiles/readline.dir/src/mx_get_com_sub.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_get_com_sub.c > CMakeFiles/readline.dir/src/mx_get_com_sub.c.i
 
 CMakeFiles/readline.dir/src/mx_get_com_sub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_get_com_sub.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_get_com_sub.c -o CMakeFiles/readline.dir/src/mx_get_com_sub.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_get_com_sub.c -o CMakeFiles/readline.dir/src/mx_get_com_sub.c.s
 
 CMakeFiles/readline.dir/src/mx_get_commands.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_get_commands.c.o: ../src/mx_get_commands.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/readline.dir/src/mx_get_commands.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_get_commands.c.o   -c /Users/admin/Desktop/shell/src/mx_get_commands.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/readline.dir/src/mx_get_commands.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_get_commands.c.o   -c /Users/admin/Desktop/ush/src/mx_get_commands.c
 
 CMakeFiles/readline.dir/src/mx_get_commands.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_get_commands.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_get_commands.c > CMakeFiles/readline.dir/src/mx_get_commands.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_get_commands.c > CMakeFiles/readline.dir/src/mx_get_commands.c.i
 
 CMakeFiles/readline.dir/src/mx_get_commands.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_get_commands.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_get_commands.c -o CMakeFiles/readline.dir/src/mx_get_commands.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_get_commands.c -o CMakeFiles/readline.dir/src/mx_get_commands.c.s
 
 CMakeFiles/readline.dir/src/mx_get_cursor.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_get_cursor.c.o: ../src/mx_get_cursor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/readline.dir/src/mx_get_cursor.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_get_cursor.c.o   -c /Users/admin/Desktop/shell/src/mx_get_cursor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/readline.dir/src/mx_get_cursor.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_get_cursor.c.o   -c /Users/admin/Desktop/ush/src/mx_get_cursor.c
 
 CMakeFiles/readline.dir/src/mx_get_cursor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_get_cursor.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_get_cursor.c > CMakeFiles/readline.dir/src/mx_get_cursor.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_get_cursor.c > CMakeFiles/readline.dir/src/mx_get_cursor.c.i
 
 CMakeFiles/readline.dir/src/mx_get_cursor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_get_cursor.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_get_cursor.c -o CMakeFiles/readline.dir/src/mx_get_cursor.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_get_cursor.c -o CMakeFiles/readline.dir/src/mx_get_cursor.c.s
 
 CMakeFiles/readline.dir/src/mx_get_env.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_get_env.c.o: ../src/mx_get_env.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/readline.dir/src/mx_get_env.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_get_env.c.o   -c /Users/admin/Desktop/shell/src/mx_get_env.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/readline.dir/src/mx_get_env.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_get_env.c.o   -c /Users/admin/Desktop/ush/src/mx_get_env.c
 
 CMakeFiles/readline.dir/src/mx_get_env.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_get_env.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_get_env.c > CMakeFiles/readline.dir/src/mx_get_env.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_get_env.c > CMakeFiles/readline.dir/src/mx_get_env.c.i
 
 CMakeFiles/readline.dir/src/mx_get_env.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_get_env.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_get_env.c -o CMakeFiles/readline.dir/src/mx_get_env.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_get_env.c -o CMakeFiles/readline.dir/src/mx_get_env.c.s
 
 CMakeFiles/readline.dir/src/mx_get_start_sub.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_get_start_sub.c.o: ../src/mx_get_start_sub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/readline.dir/src/mx_get_start_sub.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_get_start_sub.c.o   -c /Users/admin/Desktop/shell/src/mx_get_start_sub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/readline.dir/src/mx_get_start_sub.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_get_start_sub.c.o   -c /Users/admin/Desktop/ush/src/mx_get_start_sub.c
 
 CMakeFiles/readline.dir/src/mx_get_start_sub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_get_start_sub.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_get_start_sub.c > CMakeFiles/readline.dir/src/mx_get_start_sub.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_get_start_sub.c > CMakeFiles/readline.dir/src/mx_get_start_sub.c.i
 
 CMakeFiles/readline.dir/src/mx_get_start_sub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_get_start_sub.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_get_start_sub.c -o CMakeFiles/readline.dir/src/mx_get_start_sub.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_get_start_sub.c -o CMakeFiles/readline.dir/src/mx_get_start_sub.c.s
 
 CMakeFiles/readline.dir/src/mx_get_term_params.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_get_term_params.c.o: ../src/mx_get_term_params.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/readline.dir/src/mx_get_term_params.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_get_term_params.c.o   -c /Users/admin/Desktop/shell/src/mx_get_term_params.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/readline.dir/src/mx_get_term_params.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_get_term_params.c.o   -c /Users/admin/Desktop/ush/src/mx_get_term_params.c
 
 CMakeFiles/readline.dir/src/mx_get_term_params.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_get_term_params.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_get_term_params.c > CMakeFiles/readline.dir/src/mx_get_term_params.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_get_term_params.c > CMakeFiles/readline.dir/src/mx_get_term_params.c.i
 
 CMakeFiles/readline.dir/src/mx_get_term_params.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_get_term_params.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_get_term_params.c -o CMakeFiles/readline.dir/src/mx_get_term_params.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_get_term_params.c -o CMakeFiles/readline.dir/src/mx_get_term_params.c.s
 
 CMakeFiles/readline.dir/src/mx_get_var_part.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_get_var_part.c.o: ../src/mx_get_var_part.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/readline.dir/src/mx_get_var_part.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_get_var_part.c.o   -c /Users/admin/Desktop/shell/src/mx_get_var_part.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/readline.dir/src/mx_get_var_part.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_get_var_part.c.o   -c /Users/admin/Desktop/ush/src/mx_get_var_part.c
 
 CMakeFiles/readline.dir/src/mx_get_var_part.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_get_var_part.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_get_var_part.c > CMakeFiles/readline.dir/src/mx_get_var_part.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_get_var_part.c > CMakeFiles/readline.dir/src/mx_get_var_part.c.i
 
 CMakeFiles/readline.dir/src/mx_get_var_part.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_get_var_part.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_get_var_part.c -o CMakeFiles/readline.dir/src/mx_get_var_part.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_get_var_part.c -o CMakeFiles/readline.dir/src/mx_get_var_part.c.s
+
+CMakeFiles/readline.dir/src/mx_hist_init.c.o: CMakeFiles/readline.dir/flags.make
+CMakeFiles/readline.dir/src/mx_hist_init.c.o: ../src/mx_hist_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/readline.dir/src/mx_hist_init.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_hist_init.c.o   -c /Users/admin/Desktop/ush/src/mx_hist_init.c
+
+CMakeFiles/readline.dir/src/mx_hist_init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_hist_init.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_hist_init.c > CMakeFiles/readline.dir/src/mx_hist_init.c.i
+
+CMakeFiles/readline.dir/src/mx_hist_init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_hist_init.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_hist_init.c -o CMakeFiles/readline.dir/src/mx_hist_init.c.s
 
 CMakeFiles/readline.dir/src/mx_init_struct.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_init_struct.c.o: ../src/mx_init_struct.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/readline.dir/src/mx_init_struct.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_init_struct.c.o   -c /Users/admin/Desktop/shell/src/mx_init_struct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/readline.dir/src/mx_init_struct.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_init_struct.c.o   -c /Users/admin/Desktop/ush/src/mx_init_struct.c
 
 CMakeFiles/readline.dir/src/mx_init_struct.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_init_struct.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_init_struct.c > CMakeFiles/readline.dir/src/mx_init_struct.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_init_struct.c > CMakeFiles/readline.dir/src/mx_init_struct.c.i
 
 CMakeFiles/readline.dir/src/mx_init_struct.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_init_struct.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_init_struct.c -o CMakeFiles/readline.dir/src/mx_init_struct.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_init_struct.c -o CMakeFiles/readline.dir/src/mx_init_struct.c.s
 
-CMakeFiles/readline.dir/src/mx_is_buildin.c.o: CMakeFiles/readline.dir/flags.make
-CMakeFiles/readline.dir/src/mx_is_buildin.c.o: ../src/mx_is_buildin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/readline.dir/src/mx_is_buildin.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_is_buildin.c.o   -c /Users/admin/Desktop/shell/src/mx_is_buildin.c
+CMakeFiles/readline.dir/src/mx_is_builtin.c.o: CMakeFiles/readline.dir/flags.make
+CMakeFiles/readline.dir/src/mx_is_builtin.c.o: ../src/mx_is_builtin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/readline.dir/src/mx_is_builtin.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_is_builtin.c.o   -c /Users/admin/Desktop/ush/src/mx_is_builtin.c
 
-CMakeFiles/readline.dir/src/mx_is_buildin.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_is_buildin.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_is_buildin.c > CMakeFiles/readline.dir/src/mx_is_buildin.c.i
+CMakeFiles/readline.dir/src/mx_is_builtin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_is_builtin.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_is_builtin.c > CMakeFiles/readline.dir/src/mx_is_builtin.c.i
 
-CMakeFiles/readline.dir/src/mx_is_buildin.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_is_buildin.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_is_buildin.c -o CMakeFiles/readline.dir/src/mx_is_buildin.c.s
+CMakeFiles/readline.dir/src/mx_is_builtin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_is_builtin.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_is_builtin.c -o CMakeFiles/readline.dir/src/mx_is_builtin.c.s
 
 CMakeFiles/readline.dir/src/mx_is_dot.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_is_dot.c.o: ../src/mx_is_dot.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/readline.dir/src/mx_is_dot.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_is_dot.c.o   -c /Users/admin/Desktop/shell/src/mx_is_dot.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/readline.dir/src/mx_is_dot.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_is_dot.c.o   -c /Users/admin/Desktop/ush/src/mx_is_dot.c
 
 CMakeFiles/readline.dir/src/mx_is_dot.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_is_dot.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_is_dot.c > CMakeFiles/readline.dir/src/mx_is_dot.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_is_dot.c > CMakeFiles/readline.dir/src/mx_is_dot.c.i
 
 CMakeFiles/readline.dir/src/mx_is_dot.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_is_dot.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_is_dot.c -o CMakeFiles/readline.dir/src/mx_is_dot.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_is_dot.c -o CMakeFiles/readline.dir/src/mx_is_dot.c.s
 
 CMakeFiles/readline.dir/src/mx_is_link.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_is_link.c.o: ../src/mx_is_link.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/readline.dir/src/mx_is_link.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_is_link.c.o   -c /Users/admin/Desktop/shell/src/mx_is_link.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/readline.dir/src/mx_is_link.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_is_link.c.o   -c /Users/admin/Desktop/ush/src/mx_is_link.c
 
 CMakeFiles/readline.dir/src/mx_is_link.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_is_link.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_is_link.c > CMakeFiles/readline.dir/src/mx_is_link.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_is_link.c > CMakeFiles/readline.dir/src/mx_is_link.c.i
 
 CMakeFiles/readline.dir/src/mx_is_link.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_is_link.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_is_link.c -o CMakeFiles/readline.dir/src/mx_is_link.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_is_link.c -o CMakeFiles/readline.dir/src/mx_is_link.c.s
 
-CMakeFiles/readline.dir/src/mx_join.c.o: CMakeFiles/readline.dir/flags.make
-CMakeFiles/readline.dir/src/mx_join.c.o: ../src/mx_join.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/readline.dir/src/mx_join.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_join.c.o   -c /Users/admin/Desktop/shell/src/mx_join.c
+CMakeFiles/readline.dir/src/mx_join_to_path.c.o: CMakeFiles/readline.dir/flags.make
+CMakeFiles/readline.dir/src/mx_join_to_path.c.o: ../src/mx_join_to_path.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/readline.dir/src/mx_join_to_path.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_join_to_path.c.o   -c /Users/admin/Desktop/ush/src/mx_join_to_path.c
 
-CMakeFiles/readline.dir/src/mx_join.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_join.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_join.c > CMakeFiles/readline.dir/src/mx_join.c.i
+CMakeFiles/readline.dir/src/mx_join_to_path.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_join_to_path.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_join_to_path.c > CMakeFiles/readline.dir/src/mx_join_to_path.c.i
 
-CMakeFiles/readline.dir/src/mx_join.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_join.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_join.c -o CMakeFiles/readline.dir/src/mx_join.c.s
-
-CMakeFiles/readline.dir/src/mx_liststr_convert_argv.c.o: CMakeFiles/readline.dir/flags.make
-CMakeFiles/readline.dir/src/mx_liststr_convert_argv.c.o: ../src/mx_liststr_convert_argv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/readline.dir/src/mx_liststr_convert_argv.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_liststr_convert_argv.c.o   -c /Users/admin/Desktop/shell/src/mx_liststr_convert_argv.c
-
-CMakeFiles/readline.dir/src/mx_liststr_convert_argv.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_liststr_convert_argv.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_liststr_convert_argv.c > CMakeFiles/readline.dir/src/mx_liststr_convert_argv.c.i
-
-CMakeFiles/readline.dir/src/mx_liststr_convert_argv.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_liststr_convert_argv.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_liststr_convert_argv.c -o CMakeFiles/readline.dir/src/mx_liststr_convert_argv.c.s
+CMakeFiles/readline.dir/src/mx_join_to_path.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_join_to_path.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_join_to_path.c -o CMakeFiles/readline.dir/src/mx_join_to_path.c.s
 
 CMakeFiles/readline.dir/src/mx_liststr_delete.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_liststr_delete.c.o: ../src/mx_liststr_delete.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/readline.dir/src/mx_liststr_delete.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_liststr_delete.c.o   -c /Users/admin/Desktop/shell/src/mx_liststr_delete.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/readline.dir/src/mx_liststr_delete.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_liststr_delete.c.o   -c /Users/admin/Desktop/ush/src/mx_liststr_delete.c
 
 CMakeFiles/readline.dir/src/mx_liststr_delete.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_liststr_delete.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_liststr_delete.c > CMakeFiles/readline.dir/src/mx_liststr_delete.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_liststr_delete.c > CMakeFiles/readline.dir/src/mx_liststr_delete.c.i
 
 CMakeFiles/readline.dir/src/mx_liststr_delete.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_liststr_delete.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_liststr_delete.c -o CMakeFiles/readline.dir/src/mx_liststr_delete.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_liststr_delete.c -o CMakeFiles/readline.dir/src/mx_liststr_delete.c.s
 
 CMakeFiles/readline.dir/src/mx_liststr_init.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_liststr_init.c.o: ../src/mx_liststr_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/readline.dir/src/mx_liststr_init.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_liststr_init.c.o   -c /Users/admin/Desktop/shell/src/mx_liststr_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/readline.dir/src/mx_liststr_init.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_liststr_init.c.o   -c /Users/admin/Desktop/ush/src/mx_liststr_init.c
 
 CMakeFiles/readline.dir/src/mx_liststr_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_liststr_init.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_liststr_init.c > CMakeFiles/readline.dir/src/mx_liststr_init.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_liststr_init.c > CMakeFiles/readline.dir/src/mx_liststr_init.c.i
 
 CMakeFiles/readline.dir/src/mx_liststr_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_liststr_init.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_liststr_init.c -o CMakeFiles/readline.dir/src/mx_liststr_init.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_liststr_init.c -o CMakeFiles/readline.dir/src/mx_liststr_init.c.s
 
 CMakeFiles/readline.dir/src/mx_liststr_length.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_liststr_length.c.o: ../src/mx_liststr_length.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/readline.dir/src/mx_liststr_length.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_liststr_length.c.o   -c /Users/admin/Desktop/shell/src/mx_liststr_length.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/readline.dir/src/mx_liststr_length.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_liststr_length.c.o   -c /Users/admin/Desktop/ush/src/mx_liststr_length.c
 
 CMakeFiles/readline.dir/src/mx_liststr_length.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_liststr_length.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_liststr_length.c > CMakeFiles/readline.dir/src/mx_liststr_length.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_liststr_length.c > CMakeFiles/readline.dir/src/mx_liststr_length.c.i
 
 CMakeFiles/readline.dir/src/mx_liststr_length.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_liststr_length.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_liststr_length.c -o CMakeFiles/readline.dir/src/mx_liststr_length.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_liststr_length.c -o CMakeFiles/readline.dir/src/mx_liststr_length.c.s
 
 CMakeFiles/readline.dir/src/mx_liststr_pop_front.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_liststr_pop_front.c.o: ../src/mx_liststr_pop_front.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/readline.dir/src/mx_liststr_pop_front.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_liststr_pop_front.c.o   -c /Users/admin/Desktop/shell/src/mx_liststr_pop_front.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/readline.dir/src/mx_liststr_pop_front.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_liststr_pop_front.c.o   -c /Users/admin/Desktop/ush/src/mx_liststr_pop_front.c
 
 CMakeFiles/readline.dir/src/mx_liststr_pop_front.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_liststr_pop_front.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_liststr_pop_front.c > CMakeFiles/readline.dir/src/mx_liststr_pop_front.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_liststr_pop_front.c > CMakeFiles/readline.dir/src/mx_liststr_pop_front.c.i
 
 CMakeFiles/readline.dir/src/mx_liststr_pop_front.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_liststr_pop_front.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_liststr_pop_front.c -o CMakeFiles/readline.dir/src/mx_liststr_pop_front.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_liststr_pop_front.c -o CMakeFiles/readline.dir/src/mx_liststr_pop_front.c.s
 
 CMakeFiles/readline.dir/src/mx_liststr_push_back.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_liststr_push_back.c.o: ../src/mx_liststr_push_back.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/readline.dir/src/mx_liststr_push_back.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_liststr_push_back.c.o   -c /Users/admin/Desktop/shell/src/mx_liststr_push_back.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/readline.dir/src/mx_liststr_push_back.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_liststr_push_back.c.o   -c /Users/admin/Desktop/ush/src/mx_liststr_push_back.c
 
 CMakeFiles/readline.dir/src/mx_liststr_push_back.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_liststr_push_back.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_liststr_push_back.c > CMakeFiles/readline.dir/src/mx_liststr_push_back.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_liststr_push_back.c > CMakeFiles/readline.dir/src/mx_liststr_push_back.c.i
 
 CMakeFiles/readline.dir/src/mx_liststr_push_back.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_liststr_push_back.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_liststr_push_back.c -o CMakeFiles/readline.dir/src/mx_liststr_push_back.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_liststr_push_back.c -o CMakeFiles/readline.dir/src/mx_liststr_push_back.c.s
 
 CMakeFiles/readline.dir/src/mx_liststr_push_front.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_liststr_push_front.c.o: ../src/mx_liststr_push_front.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/readline.dir/src/mx_liststr_push_front.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_liststr_push_front.c.o   -c /Users/admin/Desktop/shell/src/mx_liststr_push_front.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/readline.dir/src/mx_liststr_push_front.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_liststr_push_front.c.o   -c /Users/admin/Desktop/ush/src/mx_liststr_push_front.c
 
 CMakeFiles/readline.dir/src/mx_liststr_push_front.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_liststr_push_front.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_liststr_push_front.c > CMakeFiles/readline.dir/src/mx_liststr_push_front.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_liststr_push_front.c > CMakeFiles/readline.dir/src/mx_liststr_push_front.c.i
 
 CMakeFiles/readline.dir/src/mx_liststr_push_front.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_liststr_push_front.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_liststr_push_front.c -o CMakeFiles/readline.dir/src/mx_liststr_push_front.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_liststr_push_front.c -o CMakeFiles/readline.dir/src/mx_liststr_push_front.c.s
 
 CMakeFiles/readline.dir/src/mx_loop.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_loop.c.o: ../src/mx_loop.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/readline.dir/src/mx_loop.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_loop.c.o   -c /Users/admin/Desktop/shell/src/mx_loop.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/readline.dir/src/mx_loop.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_loop.c.o   -c /Users/admin/Desktop/ush/src/mx_loop.c
 
 CMakeFiles/readline.dir/src/mx_loop.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_loop.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_loop.c > CMakeFiles/readline.dir/src/mx_loop.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_loop.c > CMakeFiles/readline.dir/src/mx_loop.c.i
 
 CMakeFiles/readline.dir/src/mx_loop.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_loop.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_loop.c -o CMakeFiles/readline.dir/src/mx_loop.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_loop.c -o CMakeFiles/readline.dir/src/mx_loop.c.s
 
 CMakeFiles/readline.dir/src/mx_lp.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_lp.c.o: ../src/mx_lp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/readline.dir/src/mx_lp.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_lp.c.o   -c /Users/admin/Desktop/shell/src/mx_lp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/readline.dir/src/mx_lp.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_lp.c.o   -c /Users/admin/Desktop/ush/src/mx_lp.c
 
 CMakeFiles/readline.dir/src/mx_lp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_lp.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_lp.c > CMakeFiles/readline.dir/src/mx_lp.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_lp.c > CMakeFiles/readline.dir/src/mx_lp.c.i
 
 CMakeFiles/readline.dir/src/mx_lp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_lp.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_lp.c -o CMakeFiles/readline.dir/src/mx_lp.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_lp.c -o CMakeFiles/readline.dir/src/mx_lp.c.s
 
 CMakeFiles/readline.dir/src/mx_malloc_err.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_malloc_err.c.o: ../src/mx_malloc_err.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/readline.dir/src/mx_malloc_err.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_malloc_err.c.o   -c /Users/admin/Desktop/shell/src/mx_malloc_err.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/readline.dir/src/mx_malloc_err.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_malloc_err.c.o   -c /Users/admin/Desktop/ush/src/mx_malloc_err.c
 
 CMakeFiles/readline.dir/src/mx_malloc_err.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_malloc_err.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_malloc_err.c > CMakeFiles/readline.dir/src/mx_malloc_err.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_malloc_err.c > CMakeFiles/readline.dir/src/mx_malloc_err.c.i
 
 CMakeFiles/readline.dir/src/mx_malloc_err.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_malloc_err.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_malloc_err.c -o CMakeFiles/readline.dir/src/mx_malloc_err.c.s
-
-CMakeFiles/readline.dir/src/mx_match_search.c.o: CMakeFiles/readline.dir/flags.make
-CMakeFiles/readline.dir/src/mx_match_search.c.o: ../src/mx_match_search.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/readline.dir/src/mx_match_search.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_match_search.c.o   -c /Users/admin/Desktop/shell/src/mx_match_search.c
-
-CMakeFiles/readline.dir/src/mx_match_search.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_match_search.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_match_search.c > CMakeFiles/readline.dir/src/mx_match_search.c.i
-
-CMakeFiles/readline.dir/src/mx_match_search.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_match_search.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_match_search.c -o CMakeFiles/readline.dir/src/mx_match_search.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_malloc_err.c -o CMakeFiles/readline.dir/src/mx_malloc_err.c.s
 
 CMakeFiles/readline.dir/src/mx_ncounter.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_ncounter.c.o: ../src/mx_ncounter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/readline.dir/src/mx_ncounter.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_ncounter.c.o   -c /Users/admin/Desktop/shell/src/mx_ncounter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/readline.dir/src/mx_ncounter.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_ncounter.c.o   -c /Users/admin/Desktop/ush/src/mx_ncounter.c
 
 CMakeFiles/readline.dir/src/mx_ncounter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_ncounter.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_ncounter.c > CMakeFiles/readline.dir/src/mx_ncounter.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_ncounter.c > CMakeFiles/readline.dir/src/mx_ncounter.c.i
 
 CMakeFiles/readline.dir/src/mx_ncounter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_ncounter.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_ncounter.c -o CMakeFiles/readline.dir/src/mx_ncounter.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_ncounter.c -o CMakeFiles/readline.dir/src/mx_ncounter.c.s
 
 CMakeFiles/readline.dir/src/mx_piped_child.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_piped_child.c.o: ../src/mx_piped_child.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/readline.dir/src/mx_piped_child.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_piped_child.c.o   -c /Users/admin/Desktop/shell/src/mx_piped_child.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/readline.dir/src/mx_piped_child.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_piped_child.c.o   -c /Users/admin/Desktop/ush/src/mx_piped_child.c
 
 CMakeFiles/readline.dir/src/mx_piped_child.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_piped_child.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_piped_child.c > CMakeFiles/readline.dir/src/mx_piped_child.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_piped_child.c > CMakeFiles/readline.dir/src/mx_piped_child.c.i
 
 CMakeFiles/readline.dir/src/mx_piped_child.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_piped_child.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_piped_child.c -o CMakeFiles/readline.dir/src/mx_piped_child.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_piped_child.c -o CMakeFiles/readline.dir/src/mx_piped_child.c.s
 
 CMakeFiles/readline.dir/src/mx_printerr.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_printerr.c.o: ../src/mx_printerr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/readline.dir/src/mx_printerr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_printerr.c.o   -c /Users/admin/Desktop/shell/src/mx_printerr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/readline.dir/src/mx_printerr.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_printerr.c.o   -c /Users/admin/Desktop/ush/src/mx_printerr.c
 
 CMakeFiles/readline.dir/src/mx_printerr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_printerr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_printerr.c > CMakeFiles/readline.dir/src/mx_printerr.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_printerr.c > CMakeFiles/readline.dir/src/mx_printerr.c.i
 
 CMakeFiles/readline.dir/src/mx_printerr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_printerr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_printerr.c -o CMakeFiles/readline.dir/src/mx_printerr.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_printerr.c -o CMakeFiles/readline.dir/src/mx_printerr.c.s
 
 CMakeFiles/readline.dir/src/mx_process_key.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_process_key.c.o: ../src/mx_process_key.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/readline.dir/src/mx_process_key.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_process_key.c.o   -c /Users/admin/Desktop/shell/src/mx_process_key.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/readline.dir/src/mx_process_key.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_process_key.c.o   -c /Users/admin/Desktop/ush/src/mx_process_key.c
 
 CMakeFiles/readline.dir/src/mx_process_key.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_process_key.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_process_key.c > CMakeFiles/readline.dir/src/mx_process_key.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_process_key.c > CMakeFiles/readline.dir/src/mx_process_key.c.i
 
 CMakeFiles/readline.dir/src/mx_process_key.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_process_key.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_process_key.c -o CMakeFiles/readline.dir/src/mx_process_key.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_process_key.c -o CMakeFiles/readline.dir/src/mx_process_key.c.s
 
 CMakeFiles/readline.dir/src/mx_qoutes_handling.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_qoutes_handling.c.o: ../src/mx_qoutes_handling.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/readline.dir/src/mx_qoutes_handling.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_qoutes_handling.c.o   -c /Users/admin/Desktop/shell/src/mx_qoutes_handling.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/readline.dir/src/mx_qoutes_handling.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_qoutes_handling.c.o   -c /Users/admin/Desktop/ush/src/mx_qoutes_handling.c
 
 CMakeFiles/readline.dir/src/mx_qoutes_handling.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_qoutes_handling.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_qoutes_handling.c > CMakeFiles/readline.dir/src/mx_qoutes_handling.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_qoutes_handling.c > CMakeFiles/readline.dir/src/mx_qoutes_handling.c.i
 
 CMakeFiles/readline.dir/src/mx_qoutes_handling.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_qoutes_handling.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_qoutes_handling.c -o CMakeFiles/readline.dir/src/mx_qoutes_handling.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_qoutes_handling.c -o CMakeFiles/readline.dir/src/mx_qoutes_handling.c.s
 
 CMakeFiles/readline.dir/src/mx_raw_mode_on.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_raw_mode_on.c.o: ../src/mx_raw_mode_on.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/readline.dir/src/mx_raw_mode_on.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_raw_mode_on.c.o   -c /Users/admin/Desktop/shell/src/mx_raw_mode_on.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/readline.dir/src/mx_raw_mode_on.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_raw_mode_on.c.o   -c /Users/admin/Desktop/ush/src/mx_raw_mode_on.c
 
 CMakeFiles/readline.dir/src/mx_raw_mode_on.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_raw_mode_on.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_raw_mode_on.c > CMakeFiles/readline.dir/src/mx_raw_mode_on.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_raw_mode_on.c > CMakeFiles/readline.dir/src/mx_raw_mode_on.c.i
 
 CMakeFiles/readline.dir/src/mx_raw_mode_on.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_raw_mode_on.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_raw_mode_on.c -o CMakeFiles/readline.dir/src/mx_raw_mode_on.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_raw_mode_on.c -o CMakeFiles/readline.dir/src/mx_raw_mode_on.c.s
 
 CMakeFiles/readline.dir/src/mx_read_key.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_read_key.c.o: ../src/mx_read_key.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/readline.dir/src/mx_read_key.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_read_key.c.o   -c /Users/admin/Desktop/shell/src/mx_read_key.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/readline.dir/src/mx_read_key.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_read_key.c.o   -c /Users/admin/Desktop/ush/src/mx_read_key.c
 
 CMakeFiles/readline.dir/src/mx_read_key.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_read_key.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_read_key.c > CMakeFiles/readline.dir/src/mx_read_key.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_read_key.c > CMakeFiles/readline.dir/src/mx_read_key.c.i
 
 CMakeFiles/readline.dir/src/mx_read_key.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_read_key.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_read_key.c -o CMakeFiles/readline.dir/src/mx_read_key.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_read_key.c -o CMakeFiles/readline.dir/src/mx_read_key.c.s
 
 CMakeFiles/readline.dir/src/mx_refresh_line.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_refresh_line.c.o: ../src/mx_refresh_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/readline.dir/src/mx_refresh_line.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_refresh_line.c.o   -c /Users/admin/Desktop/shell/src/mx_refresh_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/readline.dir/src/mx_refresh_line.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_refresh_line.c.o   -c /Users/admin/Desktop/ush/src/mx_refresh_line.c
 
 CMakeFiles/readline.dir/src/mx_refresh_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_refresh_line.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_refresh_line.c > CMakeFiles/readline.dir/src/mx_refresh_line.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_refresh_line.c > CMakeFiles/readline.dir/src/mx_refresh_line.c.i
 
 CMakeFiles/readline.dir/src/mx_refresh_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_refresh_line.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_refresh_line.c -o CMakeFiles/readline.dir/src/mx_refresh_line.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_refresh_line.c -o CMakeFiles/readline.dir/src/mx_refresh_line.c.s
 
 CMakeFiles/readline.dir/src/mx_refresh_screen.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_refresh_screen.c.o: ../src/mx_refresh_screen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/readline.dir/src/mx_refresh_screen.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_refresh_screen.c.o   -c /Users/admin/Desktop/shell/src/mx_refresh_screen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/readline.dir/src/mx_refresh_screen.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_refresh_screen.c.o   -c /Users/admin/Desktop/ush/src/mx_refresh_screen.c
 
 CMakeFiles/readline.dir/src/mx_refresh_screen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_refresh_screen.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_refresh_screen.c > CMakeFiles/readline.dir/src/mx_refresh_screen.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_refresh_screen.c > CMakeFiles/readline.dir/src/mx_refresh_screen.c.i
 
 CMakeFiles/readline.dir/src/mx_refresh_screen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_refresh_screen.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_refresh_screen.c -o CMakeFiles/readline.dir/src/mx_refresh_screen.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_refresh_screen.c -o CMakeFiles/readline.dir/src/mx_refresh_screen.c.s
+
+CMakeFiles/readline.dir/src/mx_reg.c.o: CMakeFiles/readline.dir/flags.make
+CMakeFiles/readline.dir/src/mx_reg.c.o: ../src/mx_reg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/readline.dir/src/mx_reg.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_reg.c.o   -c /Users/admin/Desktop/ush/src/mx_reg.c
+
+CMakeFiles/readline.dir/src/mx_reg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_reg.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_reg.c > CMakeFiles/readline.dir/src/mx_reg.c.i
+
+CMakeFiles/readline.dir/src/mx_reg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_reg.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_reg.c -o CMakeFiles/readline.dir/src/mx_reg.c.s
 
 CMakeFiles/readline.dir/src/mx_replace_cmd.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_replace_cmd.c.o: ../src/mx_replace_cmd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/readline.dir/src/mx_replace_cmd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_replace_cmd.c.o   -c /Users/admin/Desktop/shell/src/mx_replace_cmd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/readline.dir/src/mx_replace_cmd.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_replace_cmd.c.o   -c /Users/admin/Desktop/ush/src/mx_replace_cmd.c
 
 CMakeFiles/readline.dir/src/mx_replace_cmd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_replace_cmd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_replace_cmd.c > CMakeFiles/readline.dir/src/mx_replace_cmd.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_replace_cmd.c > CMakeFiles/readline.dir/src/mx_replace_cmd.c.i
 
 CMakeFiles/readline.dir/src/mx_replace_cmd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_replace_cmd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_replace_cmd.c -o CMakeFiles/readline.dir/src/mx_replace_cmd.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_replace_cmd.c -o CMakeFiles/readline.dir/src/mx_replace_cmd.c.s
 
 CMakeFiles/readline.dir/src/mx_return_action.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_return_action.c.o: ../src/mx_return_action.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/readline.dir/src/mx_return_action.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_return_action.c.o   -c /Users/admin/Desktop/shell/src/mx_return_action.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/readline.dir/src/mx_return_action.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_return_action.c.o   -c /Users/admin/Desktop/ush/src/mx_return_action.c
 
 CMakeFiles/readline.dir/src/mx_return_action.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_return_action.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_return_action.c > CMakeFiles/readline.dir/src/mx_return_action.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_return_action.c > CMakeFiles/readline.dir/src/mx_return_action.c.i
 
 CMakeFiles/readline.dir/src/mx_return_action.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_return_action.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_return_action.c -o CMakeFiles/readline.dir/src/mx_return_action.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_return_action.c -o CMakeFiles/readline.dir/src/mx_return_action.c.s
 
 CMakeFiles/readline.dir/src/mx_set_cursor.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_set_cursor.c.o: ../src/mx_set_cursor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/readline.dir/src/mx_set_cursor.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_set_cursor.c.o   -c /Users/admin/Desktop/shell/src/mx_set_cursor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/readline.dir/src/mx_set_cursor.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_set_cursor.c.o   -c /Users/admin/Desktop/ush/src/mx_set_cursor.c
 
 CMakeFiles/readline.dir/src/mx_set_cursor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_set_cursor.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_set_cursor.c > CMakeFiles/readline.dir/src/mx_set_cursor.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_set_cursor.c > CMakeFiles/readline.dir/src/mx_set_cursor.c.i
 
 CMakeFiles/readline.dir/src/mx_set_cursor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_set_cursor.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_set_cursor.c -o CMakeFiles/readline.dir/src/mx_set_cursor.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_set_cursor.c -o CMakeFiles/readline.dir/src/mx_set_cursor.c.s
 
 CMakeFiles/readline.dir/src/mx_simple_commands.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_simple_commands.c.o: ../src/mx_simple_commands.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/readline.dir/src/mx_simple_commands.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_simple_commands.c.o   -c /Users/admin/Desktop/shell/src/mx_simple_commands.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/readline.dir/src/mx_simple_commands.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_simple_commands.c.o   -c /Users/admin/Desktop/ush/src/mx_simple_commands.c
 
 CMakeFiles/readline.dir/src/mx_simple_commands.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_simple_commands.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_simple_commands.c > CMakeFiles/readline.dir/src/mx_simple_commands.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_simple_commands.c > CMakeFiles/readline.dir/src/mx_simple_commands.c.i
 
 CMakeFiles/readline.dir/src/mx_simple_commands.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_simple_commands.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_simple_commands.c -o CMakeFiles/readline.dir/src/mx_simple_commands.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_simple_commands.c -o CMakeFiles/readline.dir/src/mx_simple_commands.c.s
 
 CMakeFiles/readline.dir/src/mx_sort_arr.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_sort_arr.c.o: ../src/mx_sort_arr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/readline.dir/src/mx_sort_arr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_sort_arr.c.o   -c /Users/admin/Desktop/shell/src/mx_sort_arr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/readline.dir/src/mx_sort_arr.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_sort_arr.c.o   -c /Users/admin/Desktop/ush/src/mx_sort_arr.c
 
 CMakeFiles/readline.dir/src/mx_sort_arr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_sort_arr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_sort_arr.c > CMakeFiles/readline.dir/src/mx_sort_arr.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_sort_arr.c > CMakeFiles/readline.dir/src/mx_sort_arr.c.i
 
 CMakeFiles/readline.dir/src/mx_sort_arr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_sort_arr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_sort_arr.c -o CMakeFiles/readline.dir/src/mx_sort_arr.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_sort_arr.c -o CMakeFiles/readline.dir/src/mx_sort_arr.c.s
 
 CMakeFiles/readline.dir/src/mx_sort_intarr.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_sort_intarr.c.o: ../src/mx_sort_intarr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/readline.dir/src/mx_sort_intarr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_sort_intarr.c.o   -c /Users/admin/Desktop/shell/src/mx_sort_intarr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/readline.dir/src/mx_sort_intarr.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_sort_intarr.c.o   -c /Users/admin/Desktop/ush/src/mx_sort_intarr.c
 
 CMakeFiles/readline.dir/src/mx_sort_intarr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_sort_intarr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_sort_intarr.c > CMakeFiles/readline.dir/src/mx_sort_intarr.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_sort_intarr.c > CMakeFiles/readline.dir/src/mx_sort_intarr.c.i
 
 CMakeFiles/readline.dir/src/mx_sort_intarr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_sort_intarr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_sort_intarr.c -o CMakeFiles/readline.dir/src/mx_sort_intarr.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_sort_intarr.c -o CMakeFiles/readline.dir/src/mx_sort_intarr.c.s
 
 CMakeFiles/readline.dir/src/mx_split_backup.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_split_backup.c.o: ../src/mx_split_backup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/readline.dir/src/mx_split_backup.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_split_backup.c.o   -c /Users/admin/Desktop/shell/src/mx_split_backup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/readline.dir/src/mx_split_backup.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_split_backup.c.o   -c /Users/admin/Desktop/ush/src/mx_split_backup.c
 
 CMakeFiles/readline.dir/src/mx_split_backup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_split_backup.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_split_backup.c > CMakeFiles/readline.dir/src/mx_split_backup.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_split_backup.c > CMakeFiles/readline.dir/src/mx_split_backup.c.i
 
 CMakeFiles/readline.dir/src/mx_split_backup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_split_backup.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_split_backup.c -o CMakeFiles/readline.dir/src/mx_split_backup.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_split_backup.c -o CMakeFiles/readline.dir/src/mx_split_backup.c.s
 
 CMakeFiles/readline.dir/src/mx_split_line.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_split_line.c.o: ../src/mx_split_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/readline.dir/src/mx_split_line.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_split_line.c.o   -c /Users/admin/Desktop/shell/src/mx_split_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/readline.dir/src/mx_split_line.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_split_line.c.o   -c /Users/admin/Desktop/ush/src/mx_split_line.c
 
 CMakeFiles/readline.dir/src/mx_split_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_split_line.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_split_line.c > CMakeFiles/readline.dir/src/mx_split_line.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_split_line.c > CMakeFiles/readline.dir/src/mx_split_line.c.i
 
 CMakeFiles/readline.dir/src/mx_split_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_split_line.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_split_line.c -o CMakeFiles/readline.dir/src/mx_split_line.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_split_line.c -o CMakeFiles/readline.dir/src/mx_split_line.c.s
 
 CMakeFiles/readline.dir/src/mx_streams.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_streams.c.o: ../src/mx_streams.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/readline.dir/src/mx_streams.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_streams.c.o   -c /Users/admin/Desktop/shell/src/mx_streams.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/readline.dir/src/mx_streams.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_streams.c.o   -c /Users/admin/Desktop/ush/src/mx_streams.c
 
 CMakeFiles/readline.dir/src/mx_streams.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_streams.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_streams.c > CMakeFiles/readline.dir/src/mx_streams.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_streams.c > CMakeFiles/readline.dir/src/mx_streams.c.i
 
 CMakeFiles/readline.dir/src/mx_streams.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_streams.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_streams.c -o CMakeFiles/readline.dir/src/mx_streams.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_streams.c -o CMakeFiles/readline.dir/src/mx_streams.c.s
 
 CMakeFiles/readline.dir/src/mx_streams_endout.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_streams_endout.c.o: ../src/mx_streams_endout.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/readline.dir/src/mx_streams_endout.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_streams_endout.c.o   -c /Users/admin/Desktop/shell/src/mx_streams_endout.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/readline.dir/src/mx_streams_endout.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_streams_endout.c.o   -c /Users/admin/Desktop/ush/src/mx_streams_endout.c
 
 CMakeFiles/readline.dir/src/mx_streams_endout.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_streams_endout.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_streams_endout.c > CMakeFiles/readline.dir/src/mx_streams_endout.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_streams_endout.c > CMakeFiles/readline.dir/src/mx_streams_endout.c.i
 
 CMakeFiles/readline.dir/src/mx_streams_endout.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_streams_endout.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_streams_endout.c -o CMakeFiles/readline.dir/src/mx_streams_endout.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_streams_endout.c -o CMakeFiles/readline.dir/src/mx_streams_endout.c.s
 
 CMakeFiles/readline.dir/src/mx_streams_get.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_streams_get.c.o: ../src/mx_streams_get.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/readline.dir/src/mx_streams_get.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_streams_get.c.o   -c /Users/admin/Desktop/shell/src/mx_streams_get.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/readline.dir/src/mx_streams_get.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_streams_get.c.o   -c /Users/admin/Desktop/ush/src/mx_streams_get.c
 
 CMakeFiles/readline.dir/src/mx_streams_get.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_streams_get.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_streams_get.c > CMakeFiles/readline.dir/src/mx_streams_get.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_streams_get.c > CMakeFiles/readline.dir/src/mx_streams_get.c.i
 
 CMakeFiles/readline.dir/src/mx_streams_get.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_streams_get.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_streams_get.c -o CMakeFiles/readline.dir/src/mx_streams_get.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_streams_get.c -o CMakeFiles/readline.dir/src/mx_streams_get.c.s
 
 CMakeFiles/readline.dir/src/mx_streams_in.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_streams_in.c.o: ../src/mx_streams_in.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/readline.dir/src/mx_streams_in.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_streams_in.c.o   -c /Users/admin/Desktop/shell/src/mx_streams_in.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/readline.dir/src/mx_streams_in.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_streams_in.c.o   -c /Users/admin/Desktop/ush/src/mx_streams_in.c
 
 CMakeFiles/readline.dir/src/mx_streams_in.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_streams_in.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_streams_in.c > CMakeFiles/readline.dir/src/mx_streams_in.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_streams_in.c > CMakeFiles/readline.dir/src/mx_streams_in.c.i
 
 CMakeFiles/readline.dir/src/mx_streams_in.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_streams_in.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_streams_in.c -o CMakeFiles/readline.dir/src/mx_streams_in.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_streams_in.c -o CMakeFiles/readline.dir/src/mx_streams_in.c.s
 
 CMakeFiles/readline.dir/src/mx_streams_out.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_streams_out.c.o: ../src/mx_streams_out.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/readline.dir/src/mx_streams_out.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_streams_out.c.o   -c /Users/admin/Desktop/shell/src/mx_streams_out.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/readline.dir/src/mx_streams_out.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_streams_out.c.o   -c /Users/admin/Desktop/ush/src/mx_streams_out.c
 
 CMakeFiles/readline.dir/src/mx_streams_out.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_streams_out.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_streams_out.c > CMakeFiles/readline.dir/src/mx_streams_out.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_streams_out.c > CMakeFiles/readline.dir/src/mx_streams_out.c.i
 
 CMakeFiles/readline.dir/src/mx_streams_out.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_streams_out.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_streams_out.c -o CMakeFiles/readline.dir/src/mx_streams_out.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_streams_out.c -o CMakeFiles/readline.dir/src/mx_streams_out.c.s
 
 CMakeFiles/readline.dir/src/mx_swap_pwd.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_swap_pwd.c.o: ../src/mx_swap_pwd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/readline.dir/src/mx_swap_pwd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_swap_pwd.c.o   -c /Users/admin/Desktop/shell/src/mx_swap_pwd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/readline.dir/src/mx_swap_pwd.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_swap_pwd.c.o   -c /Users/admin/Desktop/ush/src/mx_swap_pwd.c
 
 CMakeFiles/readline.dir/src/mx_swap_pwd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_swap_pwd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_swap_pwd.c > CMakeFiles/readline.dir/src/mx_swap_pwd.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_swap_pwd.c > CMakeFiles/readline.dir/src/mx_swap_pwd.c.i
 
 CMakeFiles/readline.dir/src/mx_swap_pwd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_swap_pwd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_swap_pwd.c -o CMakeFiles/readline.dir/src/mx_swap_pwd.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_swap_pwd.c -o CMakeFiles/readline.dir/src/mx_swap_pwd.c.s
 
 CMakeFiles/readline.dir/src/mx_tab_action.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_tab_action.c.o: ../src/mx_tab_action.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/readline.dir/src/mx_tab_action.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_tab_action.c.o   -c /Users/admin/Desktop/shell/src/mx_tab_action.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/readline.dir/src/mx_tab_action.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_tab_action.c.o   -c /Users/admin/Desktop/ush/src/mx_tab_action.c
 
 CMakeFiles/readline.dir/src/mx_tab_action.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_tab_action.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_tab_action.c > CMakeFiles/readline.dir/src/mx_tab_action.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_tab_action.c > CMakeFiles/readline.dir/src/mx_tab_action.c.i
 
 CMakeFiles/readline.dir/src/mx_tab_action.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_tab_action.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_tab_action.c -o CMakeFiles/readline.dir/src/mx_tab_action.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_tab_action.c -o CMakeFiles/readline.dir/src/mx_tab_action.c.s
 
 CMakeFiles/readline.dir/src/mx_tilda_prefix.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_tilda_prefix.c.o: ../src/mx_tilda_prefix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/readline.dir/src/mx_tilda_prefix.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_tilda_prefix.c.o   -c /Users/admin/Desktop/shell/src/mx_tilda_prefix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/readline.dir/src/mx_tilda_prefix.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_tilda_prefix.c.o   -c /Users/admin/Desktop/ush/src/mx_tilda_prefix.c
 
 CMakeFiles/readline.dir/src/mx_tilda_prefix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_tilda_prefix.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_tilda_prefix.c > CMakeFiles/readline.dir/src/mx_tilda_prefix.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_tilda_prefix.c > CMakeFiles/readline.dir/src/mx_tilda_prefix.c.i
 
 CMakeFiles/readline.dir/src/mx_tilda_prefix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_tilda_prefix.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_tilda_prefix.c -o CMakeFiles/readline.dir/src/mx_tilda_prefix.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_tilda_prefix.c -o CMakeFiles/readline.dir/src/mx_tilda_prefix.c.s
+
+CMakeFiles/readline.dir/src/mx_write_hist.c.o: CMakeFiles/readline.dir/flags.make
+CMakeFiles/readline.dir/src/mx_write_hist.c.o: ../src/mx_write_hist.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/readline.dir/src/mx_write_hist.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_write_hist.c.o   -c /Users/admin/Desktop/ush/src/mx_write_hist.c
+
+CMakeFiles/readline.dir/src/mx_write_hist.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_write_hist.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_write_hist.c > CMakeFiles/readline.dir/src/mx_write_hist.c.i
+
+CMakeFiles/readline.dir/src/mx_write_hist.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_write_hist.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_write_hist.c -o CMakeFiles/readline.dir/src/mx_write_hist.c.s
 
 CMakeFiles/readline.dir/src/mx_xcombcounter.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_xcombcounter.c.o: ../src/mx_xcombcounter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/readline.dir/src/mx_xcombcounter.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_xcombcounter.c.o   -c /Users/admin/Desktop/shell/src/mx_xcombcounter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/readline.dir/src/mx_xcombcounter.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_xcombcounter.c.o   -c /Users/admin/Desktop/ush/src/mx_xcombcounter.c
 
 CMakeFiles/readline.dir/src/mx_xcombcounter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_xcombcounter.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_xcombcounter.c > CMakeFiles/readline.dir/src/mx_xcombcounter.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_xcombcounter.c > CMakeFiles/readline.dir/src/mx_xcombcounter.c.i
 
 CMakeFiles/readline.dir/src/mx_xcombcounter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_xcombcounter.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_xcombcounter.c -o CMakeFiles/readline.dir/src/mx_xcombcounter.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_xcombcounter.c -o CMakeFiles/readline.dir/src/mx_xcombcounter.c.s
 
 CMakeFiles/readline.dir/src/mx_xcounter.c.o: CMakeFiles/readline.dir/flags.make
 CMakeFiles/readline.dir/src/mx_xcounter.c.o: ../src/mx_xcounter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/readline.dir/src/mx_xcounter.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_xcounter.c.o   -c /Users/admin/Desktop/shell/src/mx_xcounter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/readline.dir/src/mx_xcounter.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/readline.dir/src/mx_xcounter.c.o   -c /Users/admin/Desktop/ush/src/mx_xcounter.c
 
 CMakeFiles/readline.dir/src/mx_xcounter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readline.dir/src/mx_xcounter.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/shell/src/mx_xcounter.c > CMakeFiles/readline.dir/src/mx_xcounter.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/Desktop/ush/src/mx_xcounter.c > CMakeFiles/readline.dir/src/mx_xcounter.c.i
 
 CMakeFiles/readline.dir/src/mx_xcounter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readline.dir/src/mx_xcounter.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/shell/src/mx_xcounter.c -o CMakeFiles/readline.dir/src/mx_xcounter.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/Desktop/ush/src/mx_xcounter.c -o CMakeFiles/readline.dir/src/mx_xcounter.c.s
 
 # Object files for target readline
 readline_OBJECTS = \
@@ -1354,11 +1367,12 @@ readline_OBJECTS = \
 "CMakeFiles/readline.dir/src/builtin_pwd.c.o" \
 "CMakeFiles/readline.dir/src/builtin_unset.c.o" \
 "CMakeFiles/readline.dir/src/builtin_which.c.o" \
-"CMakeFiles/readline.dir/src/buuiltin_which.c.o" \
+"CMakeFiles/readline.dir/src/buuuiltin_which.c.o" \
 "CMakeFiles/readline.dir/src/main.c.o" \
 "CMakeFiles/readline.dir/src/mx_arr_length.c.o" \
 "CMakeFiles/readline.dir/src/mx_arrows_motion.c.o" \
 "CMakeFiles/readline.dir/src/mx_backspace_action.c.o" \
+"CMakeFiles/readline.dir/src/mx_builtin_alias.c.o" \
 "CMakeFiles/readline.dir/src/mx_cd_l.c.o" \
 "CMakeFiles/readline.dir/src/mx_cd_p.c.o" \
 "CMakeFiles/readline.dir/src/mx_check_env.c.o" \
@@ -1376,13 +1390,11 @@ readline_OBJECTS = \
 "CMakeFiles/readline.dir/src/mx_count_pipes.c.o" \
 "CMakeFiles/readline.dir/src/mx_count_streams.c.o" \
 "CMakeFiles/readline.dir/src/mx_counter.c.o" \
+"CMakeFiles/readline.dir/src/mx_dash_spaces.c.o" \
 "CMakeFiles/readline.dir/src/mx_del_chararr.c.o" \
 "CMakeFiles/readline.dir/src/mx_del_conveer.c.o" \
 "CMakeFiles/readline.dir/src/mx_die.c.o" \
 "CMakeFiles/readline.dir/src/mx_editor_processing.c.o" \
-"CMakeFiles/readline.dir/src/mx_env_copy.c.o" \
-"CMakeFiles/readline.dir/src/mx_env_get_value.c.o" \
-"CMakeFiles/readline.dir/src/mx_env_new_delete.c.o" \
 "CMakeFiles/readline.dir/src/mx_env_set_var.c.o" \
 "CMakeFiles/readline.dir/src/mx_environ_copy.c.o" \
 "CMakeFiles/readline.dir/src/mx_environ_handler_env.c.o" \
@@ -1393,6 +1405,7 @@ readline_OBJECTS = \
 "CMakeFiles/readline.dir/src/mx_final_exe.c.o" \
 "CMakeFiles/readline.dir/src/mx_flags_handler_env.c.o" \
 "CMakeFiles/readline.dir/src/mx_free_assumptions.c.o" \
+"CMakeFiles/readline.dir/src/mx_get_all_alias.c.o" \
 "CMakeFiles/readline.dir/src/mx_get_argv.c.o" \
 "CMakeFiles/readline.dir/src/mx_get_cmd_tok.c.o" \
 "CMakeFiles/readline.dir/src/mx_get_com_sub.c.o" \
@@ -1402,12 +1415,12 @@ readline_OBJECTS = \
 "CMakeFiles/readline.dir/src/mx_get_start_sub.c.o" \
 "CMakeFiles/readline.dir/src/mx_get_term_params.c.o" \
 "CMakeFiles/readline.dir/src/mx_get_var_part.c.o" \
+"CMakeFiles/readline.dir/src/mx_hist_init.c.o" \
 "CMakeFiles/readline.dir/src/mx_init_struct.c.o" \
-"CMakeFiles/readline.dir/src/mx_is_buildin.c.o" \
+"CMakeFiles/readline.dir/src/mx_is_builtin.c.o" \
 "CMakeFiles/readline.dir/src/mx_is_dot.c.o" \
 "CMakeFiles/readline.dir/src/mx_is_link.c.o" \
-"CMakeFiles/readline.dir/src/mx_join.c.o" \
-"CMakeFiles/readline.dir/src/mx_liststr_convert_argv.c.o" \
+"CMakeFiles/readline.dir/src/mx_join_to_path.c.o" \
 "CMakeFiles/readline.dir/src/mx_liststr_delete.c.o" \
 "CMakeFiles/readline.dir/src/mx_liststr_init.c.o" \
 "CMakeFiles/readline.dir/src/mx_liststr_length.c.o" \
@@ -1417,7 +1430,6 @@ readline_OBJECTS = \
 "CMakeFiles/readline.dir/src/mx_loop.c.o" \
 "CMakeFiles/readline.dir/src/mx_lp.c.o" \
 "CMakeFiles/readline.dir/src/mx_malloc_err.c.o" \
-"CMakeFiles/readline.dir/src/mx_match_search.c.o" \
 "CMakeFiles/readline.dir/src/mx_ncounter.c.o" \
 "CMakeFiles/readline.dir/src/mx_piped_child.c.o" \
 "CMakeFiles/readline.dir/src/mx_printerr.c.o" \
@@ -1427,6 +1439,7 @@ readline_OBJECTS = \
 "CMakeFiles/readline.dir/src/mx_read_key.c.o" \
 "CMakeFiles/readline.dir/src/mx_refresh_line.c.o" \
 "CMakeFiles/readline.dir/src/mx_refresh_screen.c.o" \
+"CMakeFiles/readline.dir/src/mx_reg.c.o" \
 "CMakeFiles/readline.dir/src/mx_replace_cmd.c.o" \
 "CMakeFiles/readline.dir/src/mx_return_action.c.o" \
 "CMakeFiles/readline.dir/src/mx_set_cursor.c.o" \
@@ -1443,6 +1456,7 @@ readline_OBJECTS = \
 "CMakeFiles/readline.dir/src/mx_swap_pwd.c.o" \
 "CMakeFiles/readline.dir/src/mx_tab_action.c.o" \
 "CMakeFiles/readline.dir/src/mx_tilda_prefix.c.o" \
+"CMakeFiles/readline.dir/src/mx_write_hist.c.o" \
 "CMakeFiles/readline.dir/src/mx_xcombcounter.c.o" \
 "CMakeFiles/readline.dir/src/mx_xcounter.c.o"
 
@@ -1457,11 +1471,12 @@ readline: CMakeFiles/readline.dir/src/builtin_init_stract.c.o
 readline: CMakeFiles/readline.dir/src/builtin_pwd.c.o
 readline: CMakeFiles/readline.dir/src/builtin_unset.c.o
 readline: CMakeFiles/readline.dir/src/builtin_which.c.o
-readline: CMakeFiles/readline.dir/src/buuiltin_which.c.o
+readline: CMakeFiles/readline.dir/src/buuuiltin_which.c.o
 readline: CMakeFiles/readline.dir/src/main.c.o
 readline: CMakeFiles/readline.dir/src/mx_arr_length.c.o
 readline: CMakeFiles/readline.dir/src/mx_arrows_motion.c.o
 readline: CMakeFiles/readline.dir/src/mx_backspace_action.c.o
+readline: CMakeFiles/readline.dir/src/mx_builtin_alias.c.o
 readline: CMakeFiles/readline.dir/src/mx_cd_l.c.o
 readline: CMakeFiles/readline.dir/src/mx_cd_p.c.o
 readline: CMakeFiles/readline.dir/src/mx_check_env.c.o
@@ -1479,13 +1494,11 @@ readline: CMakeFiles/readline.dir/src/mx_cooked_mode_on.c.o
 readline: CMakeFiles/readline.dir/src/mx_count_pipes.c.o
 readline: CMakeFiles/readline.dir/src/mx_count_streams.c.o
 readline: CMakeFiles/readline.dir/src/mx_counter.c.o
+readline: CMakeFiles/readline.dir/src/mx_dash_spaces.c.o
 readline: CMakeFiles/readline.dir/src/mx_del_chararr.c.o
 readline: CMakeFiles/readline.dir/src/mx_del_conveer.c.o
 readline: CMakeFiles/readline.dir/src/mx_die.c.o
 readline: CMakeFiles/readline.dir/src/mx_editor_processing.c.o
-readline: CMakeFiles/readline.dir/src/mx_env_copy.c.o
-readline: CMakeFiles/readline.dir/src/mx_env_get_value.c.o
-readline: CMakeFiles/readline.dir/src/mx_env_new_delete.c.o
 readline: CMakeFiles/readline.dir/src/mx_env_set_var.c.o
 readline: CMakeFiles/readline.dir/src/mx_environ_copy.c.o
 readline: CMakeFiles/readline.dir/src/mx_environ_handler_env.c.o
@@ -1496,6 +1509,7 @@ readline: CMakeFiles/readline.dir/src/mx_file_output.c.o
 readline: CMakeFiles/readline.dir/src/mx_final_exe.c.o
 readline: CMakeFiles/readline.dir/src/mx_flags_handler_env.c.o
 readline: CMakeFiles/readline.dir/src/mx_free_assumptions.c.o
+readline: CMakeFiles/readline.dir/src/mx_get_all_alias.c.o
 readline: CMakeFiles/readline.dir/src/mx_get_argv.c.o
 readline: CMakeFiles/readline.dir/src/mx_get_cmd_tok.c.o
 readline: CMakeFiles/readline.dir/src/mx_get_com_sub.c.o
@@ -1505,12 +1519,12 @@ readline: CMakeFiles/readline.dir/src/mx_get_env.c.o
 readline: CMakeFiles/readline.dir/src/mx_get_start_sub.c.o
 readline: CMakeFiles/readline.dir/src/mx_get_term_params.c.o
 readline: CMakeFiles/readline.dir/src/mx_get_var_part.c.o
+readline: CMakeFiles/readline.dir/src/mx_hist_init.c.o
 readline: CMakeFiles/readline.dir/src/mx_init_struct.c.o
-readline: CMakeFiles/readline.dir/src/mx_is_buildin.c.o
+readline: CMakeFiles/readline.dir/src/mx_is_builtin.c.o
 readline: CMakeFiles/readline.dir/src/mx_is_dot.c.o
 readline: CMakeFiles/readline.dir/src/mx_is_link.c.o
-readline: CMakeFiles/readline.dir/src/mx_join.c.o
-readline: CMakeFiles/readline.dir/src/mx_liststr_convert_argv.c.o
+readline: CMakeFiles/readline.dir/src/mx_join_to_path.c.o
 readline: CMakeFiles/readline.dir/src/mx_liststr_delete.c.o
 readline: CMakeFiles/readline.dir/src/mx_liststr_init.c.o
 readline: CMakeFiles/readline.dir/src/mx_liststr_length.c.o
@@ -1520,7 +1534,6 @@ readline: CMakeFiles/readline.dir/src/mx_liststr_push_front.c.o
 readline: CMakeFiles/readline.dir/src/mx_loop.c.o
 readline: CMakeFiles/readline.dir/src/mx_lp.c.o
 readline: CMakeFiles/readline.dir/src/mx_malloc_err.c.o
-readline: CMakeFiles/readline.dir/src/mx_match_search.c.o
 readline: CMakeFiles/readline.dir/src/mx_ncounter.c.o
 readline: CMakeFiles/readline.dir/src/mx_piped_child.c.o
 readline: CMakeFiles/readline.dir/src/mx_printerr.c.o
@@ -1530,6 +1543,7 @@ readline: CMakeFiles/readline.dir/src/mx_raw_mode_on.c.o
 readline: CMakeFiles/readline.dir/src/mx_read_key.c.o
 readline: CMakeFiles/readline.dir/src/mx_refresh_line.c.o
 readline: CMakeFiles/readline.dir/src/mx_refresh_screen.c.o
+readline: CMakeFiles/readline.dir/src/mx_reg.c.o
 readline: CMakeFiles/readline.dir/src/mx_replace_cmd.c.o
 readline: CMakeFiles/readline.dir/src/mx_return_action.c.o
 readline: CMakeFiles/readline.dir/src/mx_set_cursor.c.o
@@ -1546,12 +1560,13 @@ readline: CMakeFiles/readline.dir/src/mx_streams_out.c.o
 readline: CMakeFiles/readline.dir/src/mx_swap_pwd.c.o
 readline: CMakeFiles/readline.dir/src/mx_tab_action.c.o
 readline: CMakeFiles/readline.dir/src/mx_tilda_prefix.c.o
+readline: CMakeFiles/readline.dir/src/mx_write_hist.c.o
 readline: CMakeFiles/readline.dir/src/mx_xcombcounter.c.o
 readline: CMakeFiles/readline.dir/src/mx_xcounter.c.o
 readline: CMakeFiles/readline.dir/build.make
 readline: libmx.a
 readline: CMakeFiles/readline.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Linking C executable readline"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Linking C executable readline"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/readline.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1564,6 +1579,6 @@ CMakeFiles/readline.dir/clean:
 .PHONY : CMakeFiles/readline.dir/clean
 
 CMakeFiles/readline.dir/depend:
-	cd /Users/admin/Desktop/shell/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/admin/Desktop/shell /Users/admin/Desktop/shell /Users/admin/Desktop/shell/cmake-build-debug /Users/admin/Desktop/shell/cmake-build-debug /Users/admin/Desktop/shell/cmake-build-debug/CMakeFiles/readline.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/admin/Desktop/ush/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/admin/Desktop/ush /Users/admin/Desktop/ush /Users/admin/Desktop/ush/cmake-build-debug /Users/admin/Desktop/ush/cmake-build-debug /Users/admin/Desktop/ush/cmake-build-debug/CMakeFiles/readline.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/readline.dir/depend
 
