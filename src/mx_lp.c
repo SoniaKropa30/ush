@@ -37,6 +37,16 @@ static void reset(t_config* term, t_hist **hist) {
     write(1, "\n\r\x1b[0J", 6);
     mx_cooked_mode_on();
     tcsetattr(0, TCSAFLUSH, &term->origin);
+    // signal(SIGINT, mx_sighandler);
+    // signal(SIGQUIT, mx_sighandler);
+    if (!strcmp("exit", term->str))
+        exit(0);
+    else if (!strcmp("clear", term->str))
+        mx_clear();
+    else if (!strcmp("history", term->str))
+        mx_history();
+    else if (!strcmp("help", term->str))
+        mx_help();
     mx_loop(term->str, term, (t_st *)term->st);
     if (hist[0]->line != NULL) {
         for (int i = 0; i < term->entry; i++) {

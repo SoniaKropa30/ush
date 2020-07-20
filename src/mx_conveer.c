@@ -42,12 +42,8 @@ static int piped_run(t_st *st, char **tokens, int i, t_config* term) {
         perror("ush: ");
     else if (pid > 0)
         st->status = piped_parent(st, i);
-    else {
-        signal(SIGTSTP, SIG_DFL);
-        signal(SIGINT, SIG_DFL);
-        signal(SIGSEGV, SIG_DFL);
+    else
         mx_piped_child(st, tokens, term);
-    }
     return st->status;
 }
 

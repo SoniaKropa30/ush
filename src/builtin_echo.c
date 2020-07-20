@@ -1,54 +1,85 @@
 #include "ush.h"
 
-static void switch_flags(char *argv[], t_echo *echo) {
+static bool check_sound(char *out) {
+    for (int i = 0; out[i] != '\0'; i++)
+        if (out[i] != '\a')
+            return false;
+    return true;
+}
+
+static void switch_flags(char *argv[], t_app *app) {
     if (argv[1] == NULL || argv[1][0] != '-')
-        echo->start_of_file = 1;
+        app->echo_start_of_file = 1;
     else {
         for (int i = 1; argv[i] != NULL && argv[i][0] == '-'; i++) {
             for (unsigned int j = 1; j < strlen(argv[i]); j++) {
                 if (argv[i][j] == 'n')
-                    echo->flag_n = 1;
+                    app->echo_flag_n = 1;
                 else if (argv[i][j] == 'e')
-                    echo->flag_e = 1;
+                    app->echo_flag_E = 0;
                 else if (argv[i][j] == 'E')
-                    echo->flag_E = 1;
+                    app->echo_flag_E = 1;
                 else {
-                    echo->start_of_file = i;
+                    app->echo_start_of_file = i;
                     return;
                 }
             }
-            echo->start_of_file = i + 1;
+            app->echo_start_of_file = i + 1;
         }
     }
 }
 
+static void print_new_line(t_app *app) {
+    if(!app->echo_flag_n) {
+        if(app->echo_only_sound)
+            return;
+        // else if (isatty(1))
+        //     printf("\x1b[0;47;30m%%\x1b[0m\n");
+    }
+    else 
+        mx_printstr("\n");
 
+}
 
-int mx_echo_builtin(char *argv[]) {
-    t_echo *echo  = malloc(sizeof(t_echo));
-    switch_flags(argv, echo);
-    //check-slash
-    //print echo
-    if (argv[echo->start_of_file] != NULL){
-            for (int i = echo->start_of_file; argv[i] != NULL; i++) {
-                if (argv[i + 1] != NULL) {
-                    write (1, &argv[i], mx_strlen(argv[i]));
-                    write (1, "\n", 1);
-                }
-                    //printf("%s ", argv[i]);
+// static void cheсk_quotes(char *argv[]) {
+//     char *buf = NULL;
+//     int arr_len = mx_arr_len(argv);
+//     int len_last_str = mx_strlen(argv[arr_len]);
+
+//     if(argv[1][0] == '"' && argv[arr_len][len_last_str - 1] == '"') {
+//         buf = mx_strndup(&argv[1][1], argv[arr_len][len_last_str - 2] == '"');
+//         mx_strdel(&argv[1]);
+//         argv[1] = mx_strdup(buf);
+//         mx_strdel(&buf);
+//         buf = mx_strndup(&argv[arr_len], argv[arr_len][len_last_str - 2]);
+//         mx_strdel(&argv[arr_len]);
+//         mx_strdel(&buf);
+//     }
+//     else
+//         return;    
+// }       
+
+int mx_echo_builtin(char *argv[], t_app *app) {
+    char *checked_argv = NULL;
+    //  printf("argv[i] = %s\n", argv[app->echo_start_of_file]);
+    // cheсk_quotes(argv);
+    switch_flags(argv, app);
+    if (argv[app->echo_start_of_file] != NULL){
+            for (int i = app->echo_start_of_file; argv[i] != NULL; i++) {
+                if(app->echo_flag_E)
+                    mx_printstr(argv[i]);
                 else {
-                    if (!echo->flag_n)
-                        printf("%s\n", argv[i]); // + \n from terminal
-                    else
-                        printf("%s\n", argv[i]); //% надо вставлять?
+                    checked_argv = mx_control_chars(argv[i]);
+                    mx_printstr(checked_argv);
+                    mx_strdel(&checked_argv);
+                    app->echo_only_sound = check_sound(checked_argv);
                 }
+                if(argv[i+1])
+                    mx_printchar(' ');
             }
     }
-    else
-        echo->flag_n == 0 ? printf("\n") : printf ("");
-    free(echo);
-
+    print_new_line(app);
     return EXIT_SUCCESS;
 }
-//system("leaks ush");
-//доделать вывод со слэшами и ~ (username);
+
+

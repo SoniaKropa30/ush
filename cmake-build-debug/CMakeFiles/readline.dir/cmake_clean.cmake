@@ -7,7 +7,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/readline.dir/src/builtin_pwd.c.o"
   "CMakeFiles/readline.dir/src/builtin_unset.c.o"
   "CMakeFiles/readline.dir/src/builtin_which.c.o"
-  "CMakeFiles/readline.dir/src/buuuiltin_which.c.o"
   "CMakeFiles/readline.dir/src/main.c.o"
   "CMakeFiles/readline.dir/src/mx_arr_length.c.o"
   "CMakeFiles/readline.dir/src/mx_arrows_motion.c.o"

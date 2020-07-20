@@ -58,14 +58,6 @@
 
 //by Sonia
 
-typedef struct s_echo {
-    bool flag_n;
-    bool flag_E;
-    bool flag_e;
-    int start_of_file;
-} t_echo;
-
-
 typedef struct list_str {
     char *key;
     char *value;
@@ -74,7 +66,7 @@ typedef struct list_str {
 
 typedef t_liststr t_environment;
 
-typedef struct s_app { //struct for pwd and cd
+typedef struct s_app {
     bool flag_p; //pwd
     char *pwd_p;
     char *old_pwd_p;
@@ -89,7 +81,11 @@ typedef struct s_app { //struct for pwd and cd
     bool env_path_deleted;
     bool wch_is_biltin;
     char *in_bin;
-
+    bool echo_only_sound;
+    bool echo_flag_n;
+    bool echo_flag_E;
+    bool echo_flag_e;
+    int echo_start_of_file;
     t_environment *vars;
 
 } t_app;
@@ -212,6 +208,9 @@ void mx_backspace_action(t_config *term);
 void mx_clear_screen(t_config* term);
 void mx_free_assumptions(t_config *term);
 void mx_set_cursor(t_config *term);
+void mx_clear(void);
+void mx_history(void);
+void mx_sighandler(int signum);
 
 
 
@@ -219,7 +218,7 @@ void mx_set_cursor(t_config *term);
 
 int mx_which(char *argv[], t_app *app);
 int mx_cd_builtin(char *argv[], t_app *app);
-int mx_echo_builtin(char *argv[]);
+int mx_echo_builtin(char *argv[], t_app *app);
 int mx_pwd_builtin(char *argv[], t_app *pwd);
 int mx_cd_p(char *argv[], t_app *pwd, int *flag);
 int mx_cd_l(char *argv[], t_app *app, int *flag);
@@ -257,7 +256,7 @@ bool mx_cmp_name(void *data1, void *data2);
 void mx_sort_arr(char **arr, bool (*cmp)(void *, void*));
 void mx_export_var_to_lists(char *arg, t_app *gv);
 int mx_builtin_unset(t_cmd *cmd, t_app *app);
-
+char *mx_control_chars(char *argv);
 
 
 t_liststr *mx_liststr_init(char *key, char *value);
@@ -319,5 +318,10 @@ void mx_del_chararr(char *arr);
 char *mx_dash_spaces(char *cmd, char *res, int i, int k);
 int mx_builtin_alias(t_st *st, char **tokens, char *name, char *all);
 char *mx_get_all_alias(char **tok, int cur);
+char **mx_streams_cd(char *c, int k, int bufsize, char *main_c);
+char **mx_streams_pars(char *c, int k, int bufsize, char *main_c);
+char *mx_without_slash(char *c, char *res, int k, int n);
+int mx_any_count(char c);
+void mx_help(void);
 
 #endif

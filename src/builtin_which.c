@@ -58,16 +58,18 @@ static void print_which(char *argv, int flag, t_app *app) { // what about nout f
             return;
         if (flag == 0) {
             if (app->wch_is_biltin)
-                printf("%s: shell built-in command\n", argv);
+                printf("%s: ush built-in command\n", argv);
             else
                 printf("%s\n", app->in_bin);
         }
         else if (flag == 2) {
             if (app->wch_is_biltin)
-                printf("%s: shell built-in command\n", argv);
+                printf("%s: ush built-in command\n", argv);
             if (app->in_bin)
                 printf("%s\n", app->in_bin);
         }
+        else 
+            printf("%s not found\n", argv);
     }
 }
 

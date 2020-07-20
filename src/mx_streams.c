@@ -1,195 +1,119 @@
 #include "ush.h"
 
-//char prompt[] = "<u$h> "; // command line prompt
-void eval(t_app *app, t_cmd *cmd);
-enum builtin_t parseBuiltin(t_cmd *cmd);
-void error(char *msg);
-int parse(t_cmd *cmd);
-void runSystemCommand(t_cmd *cmd, int bg);
-void runBuiltinCommand(t_cmd *cmd, int bg, t_app *app);
-
-
-enum builtin_t parseBuiltin(t_cmd *cmd) {
-    // quit command??????????????
-    if (!strcmp(cmd->argv[0], "cd")) {
+enum builtin_t parse_builtin(t_cmd *cmd) {
+    if (!strcmp(cmd->argv[0], "cd")) 
         return b_cd;
-    }
-    else if (!strcmp(cmd->argv[0], "which")) {
+    else if (!strcmp(cmd->argv[0], "which"))
         return b_which;
-    }
-    else if (!strcmp(cmd->argv[0], "echo")) {
+    else if (!strcmp(cmd->argv[0], "echo"))
         return b_echo;
-    }
-    else if (!strcmp(cmd->argv[0], "pwd")) {
+    else if (!strcmp(cmd->argv[0], "pwd"))
         return b_pwd;
-    }
-    else if (!strcmp(cmd->argv[0], "env")) {
+    else if (!strcmp(cmd->argv[0], "env"))
         return b_env;
-    }
-    else if (!strcmp(cmd->argv[0], "export")) {
+    else if (!strcmp(cmd->argv[0], "export"))
         return b_export;
-    }
-    else if (!strcmp(cmd->argv[0], "unset")) {
+    else if (!strcmp(cmd->argv[0], "unset"))
         return b_unset;
-    }
-    else if (!strcmp(cmd->argv[0], "exit")) {
+    else if (!strcmp(cmd->argv[0], "exit"))
         return b_exit;
-    }
-    else if (!strcmp(cmd->argv[0], "jobs")) { // Отобразить список текущих фоновых задач
-        return b_jobs;                               //cостояние процесса Running, Stopped, Done, Exit.
-    }
-    else if (!strcmp(cmd->argv[0], "bg")) { // восстанавливает jobs в фоновом режиме
-        return b_bg;
-    }
-    else if (!strcmp(cmd->argv[0], "fg")) { // выводит процесс из фонового режима
-        return b_fg;                              // (в качестве arg можно передать №задачи)
-        // (если без arg, то выведет последнюю, отправленную в фон задачу)
-    }
-    else {
+    else 
         return b_none;
-    }
 }
 
-void error(char *msg) {
-    fprintf(stderr, "Error: %s", msg);
-    exit(0);
-}
-
-int parse(t_cmd *cmd) {
-//    static char array[MAXLINE];                 // local copy of command line
-//    const char delims[10] = " \t\r\n\v\f\r";    // argument delimiters
-//    char *line = array;                         // ptr that traverses command line
-//    char *token;                                // ptr to the end of the current arg
-//    char *endline;                              // ptr to the end of the cmdline string
-    int is_bg;                                  // background job?
-
-//    (void) strncpy(line, cmdline, MAXLINE);
-//    endline = line + strlen(line);
-//    // build argv list
-//    cmd->argc = 0;
-//    while (line < endline) {
-//        line += strspn (line, delims);              // skip delimiters
-//        if (line >= endline) break;
-//        token = line + strcspn (line, delims);      // Find token delimiter
-//        *token = '\0';                              // terminate the token
-//        cmd->argv[cmd->argc++] = line;                // Record token as the token argument
-//        if (cmd->argc >= MAXARGS-1) break;          // Check if argv is full
-//        line = token + 1;
-//    }
-//    // argument list must end with a NULL pointer
-//    cmd->argv[cmd->argc] = NULL;
-    if (cmd->argc == 0)  // ignore blank line
-        return 1;
-    cmd->builtin = parseBuiltin(cmd);
-    // should job run in background?
-    if ((is_bg = (*cmd->argv[cmd->argc-1] == '&')) != 0)
-        cmd->argv[--cmd->argc] = NULL;
-//    for (int i = 0; cmd->argv; i++) {
-//        printf("%s", cmd->argv[i]);
-//    }
-    return is_bg;
-}
-
-void runSystemCommand(t_cmd *cmd, int bg) {
+void run_system_command(t_cmd *cmd) {
     pid_t childPid;
+
     if ((childPid = fork()) < 0)
-        error("fork() error");
+        fprintf(stderr, "fork() error\n");
     else if (childPid == 0) {
         if (execvp(cmd->argv[0], cmd->argv) < 0) {
-            printf("ush: %s: Command not found\n", cmd->argv[0]);
+            printf("ush: %s: command not found:\n", cmd->argv[0]);
             exit(1);
         }
     }
-    else {
-        if (bg)
-            printf("Child in background [%d]\n",childPid);
-        else
-            wait(&childPid);
-    }
+    else 
+        wait(&childPid);
 }
 
-
-void runBuiltinCommand(t_cmd *cmd, int bg, t_app *app) {
-    bg = 1;
-    switch (cmd->builtin) {
-
-        case b_cd:
+void run_builtin_command(t_cmd *cmd, t_app *app) {
+        if (cmd->builtin == b_cd)
             mx_cd_builtin(cmd->argv, app);
-            break;
-        case b_which:
+        else if (cmd->builtin == b_which)
             mx_which(cmd->argv, app);
-            break;
-        case b_echo:
-            mx_echo_builtin(cmd->argv);
-            break;
-        case b_pwd:
+         else if (cmd->builtin == b_echo) 
+            mx_echo_builtin(cmd->argv, app);
+        else if (cmd->builtin == b_pwd)
             mx_pwd_builtin(cmd->argv, app);
-            break;
-        case b_env:
-            mx_env_builtin(cmd->argv) ;
-            break;
-        case b_export:
+        else if (cmd->builtin == b_env)
+            mx_env_builtin(cmd->argv);
+        else if (cmd->builtin == b_export)
             mx_builtin_export(app, cmd);
-            break;
-        case b_unset:
+        else if (cmd->builtin == b_unset)
             mx_builtin_unset(cmd, app);
-            break;
-        case b_exit:
-            system("leaks -q ush");
-            while(1) {}
-            //exit(0);
-            printf("TODO: exit\n");
-            break;
-        default:
-            error("Unknown builtin command");
-    }
+        else if (cmd->builtin == b_exit)
+            exit(0);
+        else
+            return;
 }
 
+int mx_without_path(t_app *app, t_cmd *cmd) {
+    if ((app->env_path_deleted == true && (cmd->builtin == b_cd
+          || cmd->builtin == b_pwd || cmd->builtin == b_echo
+          || cmd->builtin == b_exit || cmd->builtin == b_unset
+          || cmd->builtin == b_export)) || app->env_path_deleted == false) {
+        return 1;
+    }
+    return 0;
+}
 
+int mx_all_builtin(t_cmd *cmd, int k) {
+    if (cmd->argv[k] != NULL && cmd->argv[k][0] != '-') {
+        if (mx_strcmp(cmd->argv[k], "cd") == 0
+            || mx_strcmp(cmd->argv[k], "pwd") == 0
+            || mx_strcmp(cmd->argv[k], "echo") == 0
+            || mx_strcmp(cmd->argv[k], "exit") == 0
+            || mx_strcmp(cmd->argv[k], "unset") == 0
+            || mx_strcmp(cmd->argv[k], "export") == 0
+            || mx_strcmp(cmd->argv[k], "which") == 0)
+        return k;
+    }
+    return 0;
+}
+
+void mx_which_unset(t_cmd *cmd, int cur) {
+    for (int i = cur; cmd->argv[i] != NULL; i++) {
+        if ((cur = mx_all_builtin(cmd, i)) > 0)
+            fprintf(stderr, "%s: ush built-in command\n\r", cmd->argv[cur]);
+        else if (cmd->argv[i] != NULL && cmd->argv[i][0] != '-')
+            fprintf(stderr, "%s not found\n\r", cmd->argv[i]);
+        else if (cmd->argv[i] != NULL && cmd->argv[i][0] != '-')
+            fprintf(stderr, "%s not found\n\r", cmd->argv[i]);
+    }
+}
 
 void eval(t_app *app, t_cmd *cmd) {
-    int bg;
-
-    // parse line into command struct
-    bg = parse(cmd);
-    if (bg == -1) return;
-    // empty line - ignore
+    cmd->builtin = parse_builtin(cmd);
     if (cmd->argv[0] == NULL) return;
-
-    if (cmd->builtin == b_none) {
-        signal(SIGSEGV, SIG_DFL);
-        signal(SIGINT, SIG_DFL);
-        signal(SIGTSTP, SIG_DFL);
-        runSystemCommand(cmd, bg);
+    if (mx_without_path(app, cmd)) {
+        if (cmd->builtin == b_none)
+            run_system_command(cmd);
+        else 
+            run_builtin_command(cmd, app);
     }
-    else {
-
-        runBuiltinCommand(cmd, bg, app);
-    }
+    else if (cmd->builtin == b_which)
+        mx_which_unset(cmd, 1);
+    else
+        fprintf(stderr, "ush: command not found: %s\n", cmd->argv[0]);
 }
 
-
 int mx_streams(t_st *st, char **tokens, t_app *app) {
-//    for (int i = 0; tokens[i] != NULL; i++)
-//        printf("%d = %s\n", i, tokens[i]);
-//    printf("\n");
-
     t_cmd *cmd = malloc(sizeof(t_cmd));
-
+    
     cmd->argc = 0;
     cmd->argv = tokens;
     for (int i = 0; tokens[i] != NULL; i++)
         cmd->argc++;
-
-
     eval(app, cmd);
-
-
     return st->status;
 }
-
-
-
-
-
-

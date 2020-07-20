@@ -11,7 +11,7 @@ static const char *make_name(void) {
         i = len;
         for (; i != 0; i--) {
             if (name[i] == '/')
-                break;
+            break;
         }
         buff = mx_strndup(&name[i + 1], len - i - 1);
         return buff;
@@ -43,5 +43,5 @@ void mx_refresh_screen(t_config* term, int offset) {
         free((void *)str);
     }
     else
-        plane_print(term, offset);
+       plane_print(term, offset);
 }

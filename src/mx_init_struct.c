@@ -8,12 +8,22 @@ char **mx_alias_arr() {
 }
 
 void mx_init_struct(t_st *st, char **env) {
+    char *tmp = NULL;
+    int n = 0;
 
     st->env = env;
     st->alias = mx_alias_arr();
     st->status = 0;
-    setenv("SHLVL", "1", 1);
-//    signal(SIGSEGV, SIG_IGN);
-//    signal(SIGINT, SIG_IGN);
-//    signal(SIGTSTP, SIG_IGN);
+    tmp = getenv("SHELL");
+    if (mx_strcmp(tmp, "./ush") != 0) {
+        setenv("SHELL", "./ush", 1);
+        setenv("SHLVL", "1", 1);
+    }
+    else {
+        tmp = getenv("SHLVL");
+        n = atoi(tmp) + 1;
+        sprintf(tmp, "%d", n);
+        printf("%s\n", tmp);
+        setenv("SHLVL", tmp, 1);
+    }
 }

@@ -15,6 +15,8 @@ static void pipe_or_file(t_config *term, char *file) {
 }
 
 int main(int argc, char **argv, char **env) {
+    //signal(SIGINT, mx_sighandler);
+    //signal(SIGQUIT, mx_sighandler);
     t_config *term = mx_config_init();
     t_hist **hist = mx_hist_init();
 
@@ -29,7 +31,3 @@ int main(int argc, char **argv, char **env) {
     //system("leaks -q ush");
     //return 0;
 }
-//    write (2, "here\n", 5);
-//    signal(SIGTSTP, SIG_IGN);
-//    signal(SIGINT, SIG_IGN);
-//    signal(SIGSEGV, SIG_IGN);
