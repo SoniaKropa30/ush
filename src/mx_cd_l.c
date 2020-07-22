@@ -35,6 +35,11 @@ static char *check_path(char *argv[], t_app *app) {
         ch = mx_strjoin(ch, argv[app->cur_arg]);
     }
     else if (argv[app->cur_arg] && argv[app->cur_arg][0] != '.') {
+        if (!mx_strcmp(argv[app->cur_arg], "/") 
+          || !mx_strcmp(argv[app->cur_arg],"/.")) {
+            ch = mx_strdup("/");
+          }
+        else 
         if (argv[app->cur_arg][0] == '/')
             ch = mx_strdup(argv[app->cur_arg]);
         else {

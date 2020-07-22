@@ -72,7 +72,7 @@ static int check_arg(char *argv[], t_app *app, int *f) {
         fprintf(stderr, "cd: too many arguments\n");
         return -1;
     }
-    else if (app->in_pwd && argv[app->cur_arg + 1]) { // todo output ~...
+    else if (app->in_pwd && argv[app->cur_arg + 1]) {
         app->cur_arg++;
     }
     return 0;
@@ -80,7 +80,7 @@ static int check_arg(char *argv[], t_app *app, int *f) {
 
 int mx_cd_builtin(char *argv[], t_app *app) {
     int *flag = get_flags(argv, app);
-
+   
    if(!argv[1] || argv[app->cur_arg] == NULL  || flag[3] == 1) {
        mx_swap_pwd(app->home, argv, app);
    }
